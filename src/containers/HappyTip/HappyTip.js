@@ -2,6 +2,10 @@ import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import ControlPanel from '../../components/ControlPanel/ControlPanel';
 import FacePanel from '../../components/FacePanel/FacePanel';
+import KeyBoard from '../../components/KeyBoard/KeyBoard';
+
+import MainText from '../../components/UI/MainText/MainText';
+import TextHeading from '../../components/UI/HeadingText/HeadingText';
 
 
 
@@ -12,7 +16,9 @@ const TAXES = {
 class HappyTip extends React.Component {
 
   state = {
-    taxIncluded: true
+    taxIncluded: true,
+    taxRate: 9.25,
+    tipPercentage: 15
   }
 
 
@@ -20,9 +26,22 @@ class HappyTip extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>HEY!</Text>
-        <ControlPanel />
-        <FacePanel />
+
+        <View style={styles.facePanel} >
+          <FacePanel
+            tipPercentage={this.state.tipPercentage}
+          />
+        </View>
+
+        <View style={styles.controlPanel} >
+          <ControlPanel
+            taxIncluded={this.state.taxIncluded}
+            taxRate={this.state.taxRate}
+            tipPercentage={this.state.tipPercentage}
+          />
+        </View>
+
+        {/*<KeyBoard />*/}
       </View>
     );
   }
@@ -37,7 +56,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     justifyContent: 'flex-start',
-    paddingTop: 100
+    paddingTop: 20,
+    height: '100%'
+  },
+  facePanel: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#9ce5f4',
+    height: '50%',
+    width: '100%'
+  },
+  controlPanel: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#ebfad1',
+    height: '50%',
+    width: '100%'
   }
 });
 

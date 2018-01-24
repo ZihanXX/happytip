@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		ewMHuU+GoMYf6pbDcmAbmr80BO4=
+		v6NH/1RfUq/+nednN8yNPGFyn+I=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -51,7 +51,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FdGLh/vRH6fB5KyJuJykZNsXLwQ=
+		3bGK4kFtKsiwlpP2IRQS9eajflM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -63,19 +63,19 @@
 		</data>
 		<key>PlugIns/appappTests.xctest.dSYM/Contents/Resources/DWARF/appappTests</key>
 		<data>
-		D49w8wbGlwYUsG5xfzAsxOMQ0O4=
+		2/NXdl5eKRgCKiWXF/6WeUg7F50=
 		</data>
 		<key>PlugIns/appappTests.xctest/Info.plist</key>
 		<data>
-		tH0MlNsjkIJYeIWrIyijtbRgNIE=
+		nvsNBLxrfVINlYGRyOadG2uoi2I=
 		</data>
 		<key>PlugIns/appappTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		9HpLlGhpJ7lj1mcIZlWXLR+otTU=
+		m0p2fQfjrZV7Ma1Kvk6jrw+iCkY=
 		</data>
 		<key>PlugIns/appappTests.xctest/appappTests</key>
 		<data>
-		U9+GjLOVhNY6jnWhBne4OpQvc8c=
+		nCq00PHeniRJW2LoXWizQDvWWBc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ewMHuU+GoMYf6pbDcmAbmr80BO4=
+			v6NH/1RfUq/+nednN8yNPGFyn+I=
 			</data>
 			<key>hash2</key>
 			<data>
-			qLIVqdW/E1bFYDY7fks0an1aLGWuRdUbg/oeSokBZrA=
+			czLmwdwed/yJ/vXX9SVkvvmFcAalu94xLpNbSLrlIJ4=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -207,44 +207,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D49w8wbGlwYUsG5xfzAsxOMQ0O4=
+			2/NXdl5eKRgCKiWXF/6WeUg7F50=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y/EXFNe00khav/SE1zCDdNduTX9m1EvViJnh6ELWNTk=
+			tYCIB0psjNjANjqFm0TgvWP/A2yPCpUBWn7dRpdO5Eo=
 			</data>
 		</dict>
 		<key>PlugIns/appappTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tH0MlNsjkIJYeIWrIyijtbRgNIE=
+			nvsNBLxrfVINlYGRyOadG2uoi2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Ei6IlpV2VQmxtmfGxjolli9TGuGaROlwx1tNZteREI=
+			RKU9qIjGzF4YZN8lgxk5lu6q4gZDfx3iUOceL7t503o=
 			</data>
 		</dict>
 		<key>PlugIns/appappTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9HpLlGhpJ7lj1mcIZlWXLR+otTU=
+			m0p2fQfjrZV7Ma1Kvk6jrw+iCkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			cu0A0bLHvjgiGcxXCX+aW/S4vC/FSu6cHcEqSY4PKik=
+			tk+Id7tgySJoJjPIskn9SlIrcROUcJFM4l4kUiAclgg=
 			</data>
 		</dict>
 		<key>PlugIns/appappTests.xctest/appappTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U9+GjLOVhNY6jnWhBne4OpQvc8c=
+			nCq00PHeniRJW2LoXWizQDvWWBc=
 			</data>
 			<key>hash2</key>
 			<data>
-			QZusOOGWx0JnbDWCLDwSuhUSPVPGJiw/2MfjRic8Dqw=
+			+jdNT6g68NUoW762SO6j91zyzQFPfHxlXZZ4sMtPC24=
 			</data>
 		</dict>
 	</dict>

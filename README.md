@@ -1,6 +1,8 @@
 # DON'T README
-# There's nothing in there.
+# There's nothing in here.
 
 
-## todos:
-* ios force press short cut?
+## DID:
+* UI components: HeadingText, MainText
+* KeyBoard -- Button
+* ControlPanel basic functions
