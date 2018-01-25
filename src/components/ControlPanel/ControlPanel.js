@@ -7,56 +7,12 @@ import MainText from '../../components/UI/MainText/MainText';
 class ControlPanel extends React.Component {
 
   state = {
-    taxIncluded: true,
-    taxRate: this.props.taxRate,
-    tipPercentage: this.props.tipPercentage,
-    totalBill: '100',
-    youPay: 0,
     splitBy: 1,
-    splitBill: 0,
     faces: ['o', '-', '-', '-', '-']
   }
 
 
-
-  toggleTaxInclHandler = () => {
-    const taxIncluded = this.state.taxIncluded;
-    this.setState({ taxIncluded: !taxIncluded });
-    const totalBill = this.state.totalBill;
-    const tipPercentage = this.props.tipPercentage;
-    const taxRate = this.state.taxRate;
-    const splitBy = this.state.splitBy;
-    const youPay = !taxIncluded
-      ? totalBill * (1.00 + tipPercentage / 100.00)
-      : totalBill / (1.00 + taxRate / 100.00) * (1.00 + tipPercentage / 100.00);
-    const splitBill = youPay / splitBy;
-    this.setState({ youPay: youPay.toFixed(2) });
-    this.setState({ splitBill: splitBill.toFixed(2) });
-  }
-
-  doTheCalculate = () => {
-    const totalBill = this.state.totalBill;
-    const tipPercentage = this.props.tipPercentage;
-    const taxRate = this.state.taxRate;
-    const taxIncluded = this.state.taxIncluded;
-    const splitBy = this.state.splitBy;
-    const youPay = taxIncluded
-      ? totalBill * (1.00 + tipPercentage / 100.00)
-      : totalBill / (1.00 + taxRate / 100.00) * (1.00 + tipPercentage / 100.00);
-    const splitBill = youPay / splitBy;
-    this.setState({ youPay: youPay.toFixed(2) });
-    this.setState({ splitBill: splitBill.toFixed(2) });
-  }
-
   splitByHandler = (splitBy) => {
-    const totalBill = this.state.totalBill;
-    const tipPercentage = this.props.tipPercentage;
-    const taxRate = this.state.taxRate;
-    const taxIncluded = this.state.taxIncluded;
-    const youPay = taxIncluded
-      ? totalBill * (1.00 + tipPercentage / 100.00)
-      : totalBill / (1.00 + taxRate / 100.00) * (1.00 + tipPercentage / 100.00);
-    const splitBill = youPay / splitBy;
     var faces = ['o', 'o', 'o', 'o', 'o'];
     switch (splitBy) {
       case 1:
@@ -78,9 +34,8 @@ class ControlPanel extends React.Component {
         break;
     }
     this.setState({ splitBy: splitBy });
-    this.setState({ youPay: youPay.toFixed(2) });
-    this.setState({ splitBill: splitBill.toFixed(2) });
     this.setState({ faces: faces });
+    this.props.doTheCalculate(splitBy);
   }
 
 
@@ -89,17 +44,15 @@ class ControlPanel extends React.Component {
     return (
       <View>
 
-        <Text>{this.props.tipPercentage} %</Text>
-
         <View style={styles.pricesContainer}>
           <MainText> $ </MainText>
-          <TextHeading> {this.state.totalBill} </TextHeading>
+          <TextHeading> {this.props.totalBill} </TextHeading>
           <MainText>Bill Price</MainText>
         </View>
 
         <View style={styles.pricesContainer}>
           <MainText> $ </MainText>
-          <TextHeading> {this.state.youPay} </TextHeading>
+          <TextHeading> {this.props.youPay} </TextHeading>
           <MainText>You Pay</MainText>
         </View>
 
@@ -126,22 +79,22 @@ class ControlPanel extends React.Component {
 
         <View style={styles.pricesContainer}>
           <MainText> $ </MainText>
-          <TextHeading> {this.state.splitBill} </TextHeading>
+          <TextHeading> {this.props.splitBill} </TextHeading>
           <MainText>Split Price</MainText>
         </View>
 
 
         <View>
-          <Button title="calculate" onPress={this.doTheCalculate}></Button>
+          <Button title="calculate" onPress={() => this.props.doTheCalculate(this.state.splitBy)}></Button>
         </View>
 
 
 
-        <TouchableOpacity onPress={this.toggleTaxInclHandler}>
+        <TouchableOpacity onPress={() => this.props.toggleTaxInclHandler(this.state.splitBy)}>
           <View>
-            {this.state.taxIncluded ?
-              <Text>{this.state.taxRate}% tax incl.</Text> :
-              <Text>{this.state.taxRate}% tax excl.</Text>
+            {this.props.taxIncluded ?
+              <Text>{this.props.taxRate}% tax incl.</Text> :
+              <Text>{this.props.taxRate}% tax excl.</Text>
             }
           </View>
         </TouchableOpacity>
@@ -161,7 +114,6 @@ const styles = StyleSheet.create({
     flexDirection:'row',
   }
 });
-
 
 
 

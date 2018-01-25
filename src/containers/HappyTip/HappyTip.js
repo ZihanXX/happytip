@@ -17,19 +17,76 @@ const TAXES = {
 class HappyTip extends React.Component {
 
   state = {
-    // taxIncluded: true,
+    taxIncluded: true,
     taxRate: 9.25,
-    tipPercentage: 15
+    tipPercentage: 15,
+    totalBill: '100',
+    splitBy: 1,
+    youPay: 0,
+    splitBill: 0
   }
 
   addPercentage = () => {
     const tipPercentage = this.state.tipPercentage < 100 ? this.state.tipPercentage : 100;
     this.setState({ tipPercentage: tipPercentage + 1 });
+    const totalBill = this.state.totalBill;
+    const taxRate = this.state.taxRate;
+    const taxIncluded = this.state.taxIncluded;
+    const newTipPercentage = tipPercentage + 1;
+    const youPay = taxIncluded
+      ? totalBill * (1.00 + newTipPercentage / 100.00)
+      : totalBill / (1.00 + taxRate / 100.00) * (1.00 + newTipPercentage / 100.00);
+    const splitBy = this.state.splitBy;
+    const splitBill = youPay / splitBy;
+    this.setState({ youPay: youPay.toFixed(2) });
+    this.setState({ splitBill: splitBill.toFixed(2) });
   }
+
   minusPercentage = () => {
     const tipPercentage = this.state.tipPercentage > 0 ? this.state.tipPercentage : 0;
     this.setState({ tipPercentage: tipPercentage - 1 });
+    const totalBill = this.state.totalBill;
+    const taxRate = this.state.taxRate;
+    const taxIncluded = this.state.taxIncluded;
+    const newTipPercentage = tipPercentage - 1;
+    const youPay = taxIncluded
+      ? totalBill * (1.00 + newTipPercentage / 100.00)
+      : totalBill / (1.00 + taxRate / 100.00) * (1.00 + newTipPercentage / 100.00);
+    const splitBy = this.state.splitBy;
+    const splitBill = youPay / splitBy;
+    this.setState({ youPay: youPay.toFixed(2) });
+    this.setState({ splitBill: splitBill.toFixed(2) });
   }
+
+  doTheCalculate = (splitBy) => {
+    const totalBill = this.state.totalBill;
+    const tipPercentage = this.state.tipPercentage;
+    const taxRate = this.state.taxRate;
+    const taxIncluded = this.state.taxIncluded;
+    const youPay = taxIncluded
+      ? totalBill * (1.00 + tipPercentage / 100.00)
+      : totalBill / (1.00 + taxRate / 100.00) * (1.00 + tipPercentage / 100.00);
+    const splitBill = youPay / splitBy;
+    this.setState({ splitBy: splitBy });
+    this.setState({ youPay: youPay.toFixed(2) });
+    this.setState({ splitBill: splitBill.toFixed(2) });
+  }
+
+  toggleTaxInclHandler = (splitBy) => {
+    const taxIncluded = this.state.taxIncluded;
+    this.setState({ taxIncluded: !taxIncluded });
+    const totalBill = this.state.totalBill;
+    const tipPercentage = this.state.tipPercentage;
+    const taxRate = this.state.taxRate;
+    const youPay = !taxIncluded
+      ? totalBill * (1.00 + tipPercentage / 100.00)
+      : totalBill / (1.00 + taxRate / 100.00) * (1.00 + tipPercentage / 100.00);
+    const splitBill = youPay / splitBy;
+    this.setState({ splitBy: splitBy });
+    this.setState({ youPay: youPay.toFixed(2) });
+    this.setState({ splitBill: splitBill.toFixed(2) });
+  }
+
 
   render() {
     return (
@@ -51,9 +108,15 @@ class HappyTip extends React.Component {
 
         <View style={styles.controlPanel} >
           <ControlPanel
-            // taxIncluded={this.state.taxIncluded}
+            taxIncluded={this.state.taxIncluded}
             taxRate={this.state.taxRate}
             tipPercentage={this.state.tipPercentage}
+            toggleTaxInclHandler={this.toggleTaxInclHandler}
+            doTheCalculate={this.doTheCalculate}
+            // splitByHandler={this.state.splitByHandler}
+            totalBill={this.state.totalBill}
+            youPay={this.state.youPay}
+            splitBill={this.state.splitBill}
           />
         </View>
 
