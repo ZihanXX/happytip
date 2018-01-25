@@ -9,3 +9,4 @@
 ## DID:
 * face images
 * percentages and faces
+* keypad and everything

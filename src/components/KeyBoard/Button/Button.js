@@ -3,7 +3,7 @@ import { TouchableHighlight, Text, View, StyleSheet } from 'react-native';
 
 
 const button = props => (
-  <TouchableHighlight onPress={() => {alert('hahah');}}>
+  <TouchableHighlight onPress={props.onPress}>
     <View style={[styles.button, {backgroundColor: props.color}]}>
       <Text>{props.children}</Text>
     </View>

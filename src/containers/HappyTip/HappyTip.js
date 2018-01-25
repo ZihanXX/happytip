@@ -3,7 +3,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import ControlPanel from '../../components/ControlPanel/ControlPanel';
 import FacePanel from '../../components/FacePanel/FacePanel';
 import HeadingPanel from '../../components/HeadingPanel/HeadingPanel';
-import KeyBoard from '../../components/KeyBoard/KeyBoard';
+import KeyBoard from '../../components/KeyBoard/KeyPad';
 
 import MainText from '../../components/UI/MainText/MainText';
 import TextHeading from '../../components/UI/HeadingText/HeadingText';
@@ -20,7 +20,7 @@ class HappyTip extends React.Component {
     taxIncluded: true,
     taxRate: 9.25,
     tipPercentage: 15,
-    totalBill: '100',
+    totalBill: '',
     splitBy: 1,
     youPay: 0,
     splitBill: 0
@@ -87,6 +87,16 @@ class HappyTip extends React.Component {
     this.setState({ splitBill: splitBill.toFixed(2) });
   }
 
+  billPriceHandler = (key) => {
+    var totalBill = String(this.state.totalBill);
+    if (key === 'del') {
+      totalBill = totalBill.slice(0, -1);
+    } else if (key === '.') {
+      if (!totalBill.includes('.')) totalBill = totalBill + key;
+    } else totalBill = totalBill + key;
+    if (totalBill.length <= 8) this.setState({ totalBill: totalBill });
+  }
+
 
   render() {
     return (
@@ -113,14 +123,18 @@ class HappyTip extends React.Component {
             tipPercentage={this.state.tipPercentage}
             toggleTaxInclHandler={this.toggleTaxInclHandler}
             doTheCalculate={this.doTheCalculate}
-            // splitByHandler={this.state.splitByHandler}
             totalBill={this.state.totalBill}
             youPay={this.state.youPay}
             splitBill={this.state.splitBill}
           />
         </View>
 
-        {/*<KeyBoard />*/}
+        <KeyBoard
+          doTheCalculate={this.doTheCalculate}
+          splitBy={this.state.splitBy}
+          billPriceHandler={this.billPriceHandler}
+        />
+
       </View>
     );
   }
@@ -149,7 +163,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#292961',
-    height: '40%',
+    height: '30%',
     width: '100%',
     // paddingTop: 45
   },
@@ -157,7 +171,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#eeeeee',
-    height: '50%',
+    height: '30%',
+    width: '100%'
+  },
+  keyBoard: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#eeeeee',
+    height: '40%',
     width: '100%'
   }
 });

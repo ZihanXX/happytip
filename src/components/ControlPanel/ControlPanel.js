@@ -2,6 +2,10 @@ import React from 'react';
 import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableOpacity, Button } from 'react-native';
 import TextHeading from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
+import BillPrice from '../ControlPanel/PriceLabels/BillPrice';
+import YouPay from '../ControlPanel/PriceLabels/YouPay';
+import SplitPrice from '../ControlPanel/PriceLabels/SplitPrice';
+import FriendSplit from '../ControlPanel/PriceLabels/FriendsSplit';
 
 
 class ControlPanel extends React.Component {
@@ -44,60 +48,25 @@ class ControlPanel extends React.Component {
     return (
       <View>
 
-        <View style={styles.pricesContainer}>
-          <MainText> $ </MainText>
-          <TextHeading> {this.props.totalBill} </TextHeading>
-          <MainText>Bill Price</MainText>
-        </View>
+        <BillPrice totalBill={this.props.totalBill} />
 
-        <View style={styles.pricesContainer}>
-          <MainText> $ </MainText>
-          <TextHeading> {this.props.youPay} </TextHeading>
-          <MainText>You Pay</MainText>
-        </View>
-
-        {
-          this.state.splitBy <= 5 ?
-            <View style={styles.pricesContainer}>
-              <Button title={this.state.faces[0]} onPress={() => this.splitByHandler(1)} ></Button>
-              <Button title={this.state.faces[1]} onPress={() => this.splitByHandler(2)} ></Button>
-              <Button title={this.state.faces[2]} onPress={() => this.splitByHandler(3)} ></Button>
-              <Button title={this.state.faces[3]} onPress={() => this.splitByHandler(4)} ></Button>
-              <Button title={this.state.faces[4]} onPress={() => this.splitByHandler(5)} ></Button>
-              <Button title="+" onPress={() => this.splitByHandler(6)} ></Button>
-              <MainText> Friends Split </MainText>
-            </View>
-            :
-            <View style={styles.pricesContainer}>
-              <Button title="-" onPress={() => this.splitByHandler(this.state.splitBy - 1)} ></Button>
-              <MainText> {this.state.splitBy} </MainText>
-              <Button title="+" onPress={() => this.splitByHandler(this.state.splitBy + 1)} ></Button>
-              <MainText> Friends Split </MainText>
-            </View>
-        }
+        <YouPay
+          youPay={this.props.youPay}
+          toggleTaxInclHandler={this.props.toggleTaxInclHandler}
+          splitBy={this.state.splitBy}
+          taxIncluded={this.props.taxIncluded}
+          taxRate={this.props.taxRate}
+        />
 
 
-        <View style={styles.pricesContainer}>
-          <MainText> $ </MainText>
-          <TextHeading> {this.props.splitBill} </TextHeading>
-          <MainText>Split Price</MainText>
-        </View>
+        <FriendSplit
+          splitBy={this.state.splitBy}
+          faces={this.state.faces}
+          splitByHandler={this.splitByHandler}
+        />
 
 
-        <View>
-          <Button title="calculate" onPress={() => this.props.doTheCalculate(this.state.splitBy)}></Button>
-        </View>
-
-
-
-        <TouchableOpacity onPress={() => this.props.toggleTaxInclHandler(this.state.splitBy)}>
-          <View>
-            {this.props.taxIncluded ?
-              <Text>{this.props.taxRate}% tax incl.</Text> :
-              <Text>{this.props.taxRate}% tax excl.</Text>
-            }
-          </View>
-        </TouchableOpacity>
+        <SplitPrice splitBill={this.props.splitBill} />
 
 
       </View>
@@ -107,13 +76,13 @@ class ControlPanel extends React.Component {
 }
 
 
-const styles = StyleSheet.create({
-  pricesContainer: {
-    flexWrap: 'wrap',
-    alignItems: 'flex-start',
-    flexDirection:'row',
-  }
-});
+// const styles = StyleSheet.create({
+//   pricesContainer: {
+//     flexWrap: 'wrap',
+//     alignItems: 'flex-start',
+//     flexDirection:'row',
+//   }
+// });
 
 
 
