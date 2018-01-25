@@ -2,7 +2,10 @@
 # There's nothing in here.
 
 
-## DID:
 * UI components: HeadingText, MainText
 * KeyBoard -- Button
 * ControlPanel basic functions
+
+## DID:
+* face images
+* percentages and faces

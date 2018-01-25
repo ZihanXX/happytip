@@ -7,7 +7,7 @@ import MainText from '../../components/UI/MainText/MainText';
 class ControlPanel extends React.Component {
 
   state = {
-    taxIncluded: this.props.taxIncluded,
+    taxIncluded: true,
     taxRate: this.props.taxRate,
     tipPercentage: this.props.tipPercentage,
     totalBill: '100',
@@ -23,7 +23,7 @@ class ControlPanel extends React.Component {
     const taxIncluded = this.state.taxIncluded;
     this.setState({ taxIncluded: !taxIncluded });
     const totalBill = this.state.totalBill;
-    const tipPercentage = this.state.tipPercentage;
+    const tipPercentage = this.props.tipPercentage;
     const taxRate = this.state.taxRate;
     const splitBy = this.state.splitBy;
     const youPay = !taxIncluded
@@ -36,7 +36,7 @@ class ControlPanel extends React.Component {
 
   doTheCalculate = () => {
     const totalBill = this.state.totalBill;
-    const tipPercentage = this.state.tipPercentage;
+    const tipPercentage = this.props.tipPercentage;
     const taxRate = this.state.taxRate;
     const taxIncluded = this.state.taxIncluded;
     const splitBy = this.state.splitBy;
@@ -50,7 +50,7 @@ class ControlPanel extends React.Component {
 
   splitByHandler = (splitBy) => {
     const totalBill = this.state.totalBill;
-    const tipPercentage = this.state.tipPercentage;
+    const tipPercentage = this.props.tipPercentage;
     const taxRate = this.state.taxRate;
     const taxIncluded = this.state.taxIncluded;
     const youPay = taxIncluded
@@ -86,9 +86,10 @@ class ControlPanel extends React.Component {
 
   render () {
 
-
     return (
       <View>
+
+        <Text>{this.props.tipPercentage} %</Text>
 
         <View style={styles.pricesContainer}>
           <MainText> $ </MainText>
