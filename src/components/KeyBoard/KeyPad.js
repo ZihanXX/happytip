@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Button from '../KeyBoard/Button/Button';
+import Button from './Button/Button';
 
 
-const keyBoard = props => {
+const keyPad = props => {
 
   return (
     <View>
@@ -49,4 +49,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default keyBoard;
+export default keyPad;

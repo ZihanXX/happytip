@@ -8,10 +8,14 @@
 * face images
 * percentages and faces
 * keypad and everything
-
-## DID:
 * navigation for god sake
 
-## TODO:
+## DID:
 * tax rate setting
 * concurrency setting
+* toggle keypad
+
+
+## TODO:
+* save user data
+* improvise UI

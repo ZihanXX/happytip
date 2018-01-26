@@ -10,28 +10,40 @@ class SettingsScreen extends React.Component {
     concurrency: this.props.concurrency
   }
 
-  // goToLocationHandler = () => {
-  //   this.props.navigator.push({
-  //     screen: 'happy-tip.SettingLocationScreen',
-  //   });
-  // }
 
   goToTaxRateHandler = () => {
     this.props.navigator.push({
       screen: 'happy-tip.SettingTaxRateScreen',
+      passProps: {
+        taxRate: this.props.taxRate,
+        setTaxRate: this.setTaxRateHandler
+      }
     });
   }
 
   goToConcurrencyHandler = () => {
     this.props.navigator.push({
       screen: 'happy-tip.SettingConcurrencyScreen',
+      passProps: {
+        setConcurrency: this.setConcurrencyHanlder
+      }
     });
+  }
+
+  setConcurrencyHanlder = (concurrency) => {
+    this.setState({ concurrency: concurrency });
+    this.props.setConcurrency(concurrency);
   }
 
   toggleTaxInclHandler = () => {
     const taxIncluded = this.state.taxIncluded;
     this.setState({ taxIncluded: !taxIncluded });
     this.props.toggleTaxIncl();
+  }
+
+  setTaxRateHandler = (taxRate) => {
+    this.setState({ taxRate: taxRate });
+    this.props.setTaxRate(taxRate);
   }
 
   goToTipMeHandler = () => {
@@ -43,7 +55,6 @@ class SettingsScreen extends React.Component {
   render () {
     return (
       <Settings
-        // goToLocation={this.goToLocationHandler}
         goToTaxRate={this.goToTaxRateHandler}
         taxRate={this.state.taxRate}
         taxIncluded={this.state.taxIncluded}

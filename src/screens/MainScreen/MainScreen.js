@@ -1,14 +1,11 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Dimensions } from 'react-native';
 import ControlPanel from '../../components/ControlPanel/ControlPanel';
 import FacePanel from '../../components/FacePanel/FacePanel';
 import HeadingPanel from '../../components/HeaderPanel/HeaderPanel';
-import KeyBoard from '../../components/KeyBoard/KeyPad';
+import KeyPad from '../../components/KeyBoard/KeyPad';
+import Modal from 'react-native-modalbox';
 
-
-const TAXES = {
-  CA: 9
-}
 
 
 class MainScreen extends React.Component {
@@ -21,8 +18,9 @@ class MainScreen extends React.Component {
     splitBy: 1,
     youPay: 0,
     splitBill: 0,
-    concurrency: '￥'
+    concurrency: '$'
   }
+
 
 
   addPercentage = () => {
@@ -69,6 +67,7 @@ class MainScreen extends React.Component {
     this.setState({ splitBy: splitBy });
     this.setState({ youPay: youPay.toFixed(2) });
     this.setState({ splitBill: splitBill.toFixed(2) });
+    this.refs.keyPadModal.close();
   }
 
   toggleTaxInclHandler = () => {
@@ -98,6 +97,7 @@ class MainScreen extends React.Component {
   }
 
 
+
   // the settings
   goToSettingsHandler = () => {
     this.props.navigator.push({
@@ -106,9 +106,34 @@ class MainScreen extends React.Component {
         taxRate: this.state.taxRate,
         taxIncluded: this.state.taxIncluded,
         toggleTaxIncl: this.toggleTaxInclHandler,
-        concurrency: this.state.concurrency
+        concurrency: this.state.concurrency,
+        setConcurrency: this.setConcurrencyHandler,
+        setTaxRate: this.setTaxRateHandler
       }
     });
+  }
+
+  setConcurrencyHandler = (concurrency) => {
+    this.setState({ concurrency: concurrency });
+  }
+
+  setTaxRateHandler = (taxRate) => {
+    this.setState({ taxRate: taxRate });
+    const totalBill = this.state.totalBill;
+    const tipPercentage = this.state.tipPercentage;
+    const splitBy = this.state.splitBy;
+    const taxIncluded = this.state.taxIncluded;
+    const youPay = taxIncluded
+      ? totalBill * (1.00 + tipPercentage / 100.00)
+      : totalBill / (1.00 + taxRate / 100.00) * (1.00 + tipPercentage / 100.00);
+    const splitBill = youPay / splitBy;
+    this.setState({ splitBy: splitBy });
+    this.setState({ youPay: youPay.toFixed(2) });
+    this.setState({ splitBill: splitBill.toFixed(2) });
+  }
+
+  showKeyPadHandler = () => {
+    this.refs.keyPadModal.open();
   }
 
 
@@ -142,20 +167,25 @@ class MainScreen extends React.Component {
             youPay={this.state.youPay}
             splitBill={this.state.splitBill}
             concurrency={this.state.concurrency}
+            showKeyPad={this.showKeyPadHandler}
           />
         </View>
 
-        <KeyBoard
-          doTheCalculate={this.doTheCalculate}
-          splitBy={this.state.splitBy}
-          billPriceHandler={this.billPriceHandler}
-        />
+        <Modal style={styles.keyPadModal} backdrop={false}  position={"bottom"} ref={"keyPadModal"}>
+          <KeyPad
+            doTheCalculate={this.doTheCalculate}
+            splitBy={this.state.splitBy}
+            billPriceHandler={this.billPriceHandler}
+          />
+        </Modal>
 
       </View>
     );
   }
 
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
@@ -178,7 +208,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#292961',
-    height: '30%',
+    height: '40%',
     width: '100%',
     // paddingTop: 45
   },
@@ -186,16 +216,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#eeeeee',
-    height: '25%',
-    width: '100%'
-  },
-  keyBoard: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#eeeeee',
     height: '30%',
     width: '100%'
-  }
+  },
+  keyPadModal: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    height: Dimensions.get('window').height * 0.4,
+    width: '100%'
+  },
 });
 
 

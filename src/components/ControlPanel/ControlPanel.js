@@ -48,10 +48,13 @@ class ControlPanel extends React.Component {
     return (
       <View>
 
-        <BillPrice
-          totalBill={this.props.totalBill}
-          concurrency={this.props.concurrency}
-        />
+        <TouchableOpacity onPress={this.props.showKeyPad}>
+          <BillPrice
+            totalBill={this.props.totalBill}
+            concurrency={this.props.concurrency}
+          />
+        </TouchableOpacity>
+
 
         <YouPay
           youPay={this.props.youPay}
