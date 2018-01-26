@@ -5,8 +5,13 @@
 * UI components: HeadingText, MainText
 * KeyBoard -- Button
 * ControlPanel basic functions
-
-## DID:
 * face images
 * percentages and faces
 * keypad and everything
+
+## DID:
+* navigation for god sake
+
+## TODO:
+* tax rate setting
+* concurrency setting

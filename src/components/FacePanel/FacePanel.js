@@ -34,7 +34,7 @@ const facePanel = (props) => {
           faceSource == 'YOU ARE RICH' ?
             <View>
               <HeadingText>YOU ARE RICH!</HeadingText>
-              <MainText>Consider supporting this app?</MainText>
+              <MainText>Consider tipping this app?</MainText>
             </View>
             :
             <View>

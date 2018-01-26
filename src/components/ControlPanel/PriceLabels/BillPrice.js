@@ -6,7 +6,7 @@ import HeadingText from '../../../components/UI/HeadingText/HeadingText'
 
 const billPrice = props => (
   <View style={styles.pricesContainer}>
-    <MainText> $ </MainText>
+    <MainText> {props.concurrency} </MainText>
     <HeadingText> {props.totalBill} </HeadingText>
     <MainText>Bill Price</MainText>
   </View>

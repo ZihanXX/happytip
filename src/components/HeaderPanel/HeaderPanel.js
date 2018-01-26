@@ -9,16 +9,16 @@ const headingPanel = (props) => {
   return (
     <View style={styles.container}>
 
+      <View style={styles.percentage}>
+        <HeadingText style={styles.text}> {props.tipPercentage}% </HeadingText>
+      </View>
+
       <View style={styles.menu}>
         <TouchableHighlight onPress={props.goToSettings}>
           <View>
             <HeadingText style={styles.text}> # </HeadingText>
           </View>
         </TouchableHighlight>
-      </View>
-
-      <View style={styles.percentage}>
-        <HeadingText style={styles.text}> {props.tipPercentage}% </HeadingText>
       </View>
 
     </View>

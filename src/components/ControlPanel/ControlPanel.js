@@ -48,7 +48,10 @@ class ControlPanel extends React.Component {
     return (
       <View>
 
-        <BillPrice totalBill={this.props.totalBill} />
+        <BillPrice
+          totalBill={this.props.totalBill}
+          concurrency={this.props.concurrency}
+        />
 
         <YouPay
           youPay={this.props.youPay}
@@ -56,6 +59,7 @@ class ControlPanel extends React.Component {
           splitBy={this.state.splitBy}
           taxIncluded={this.props.taxIncluded}
           taxRate={this.props.taxRate}
+          concurrency={this.props.concurrency}
         />
 
 
@@ -66,7 +70,10 @@ class ControlPanel extends React.Component {
         />
 
 
-        <SplitPrice splitBill={this.props.splitBill} />
+        <SplitPrice
+          splitBill={this.props.splitBill}
+          concurrency={this.props.concurrency}
+        />
 
 
       </View>

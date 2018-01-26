@@ -6,10 +6,10 @@ import HeadingText from '../../../components/UI/HeadingText/HeadingText'
 
 const youPay = props => (
   <View style={styles.pricesContainer}>
-    <MainText> $ </MainText>
+    <MainText> {props.concurrency} </MainText>
     <HeadingText> {props.youPay} </HeadingText>
     <MainText>You Pay</MainText>
-    <TouchableOpacity onPress={() => props.toggleTaxInclHandler(props.splitBy)}>
+    <TouchableOpacity onPress={props.toggleTaxInclHandler}>
       <View>
         {props.taxIncluded ?
           <Text>{props.taxRate}% tax incl.</Text> :
