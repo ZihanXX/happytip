@@ -4,7 +4,7 @@
             "outputFile": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/59397f55ebe76a5867725abb5e7080d9/res/values-w360dp/values-w360dp.xml",
+                    "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/4cd8b00cdd6906ca957cbd0fec98c12e/res/values-w360dp/values-w360dp.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

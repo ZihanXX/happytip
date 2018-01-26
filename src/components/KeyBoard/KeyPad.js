@@ -12,19 +12,28 @@ const keyBoard = props => {
         <Button onPress={() => props.billPriceHandler('1')}>1</Button>
         <Button onPress={() => props.billPriceHandler('2')}>2</Button>
         <Button onPress={() => props.billPriceHandler('3')}>3</Button>
+      </View>
+
+      <View style={styles.container}>
         <Button onPress={() => props.billPriceHandler('4')}>4</Button>
         <Button onPress={() => props.billPriceHandler('5')}>5</Button>
         <Button onPress={() => props.billPriceHandler('6')}>6</Button>
+      </View>
+
+      <View style={styles.container}>
         <Button onPress={() => props.billPriceHandler('7')}>7</Button>
         <Button onPress={() => props.billPriceHandler('8')}>8</Button>
         <Button onPress={() => props.billPriceHandler('9')}>9</Button>
-        <Button onPress={() => props.billPriceHandler('0')}>0</Button>
+      </View>
+
+      <View style={styles.container}>
         <Button onPress={() => props.billPriceHandler('.')}>.</Button>
-        <Button onPress={() => props.billPriceHandler('del')}>DELETE</Button>
+        <Button onPress={() => props.billPriceHandler('0')}>0</Button>
+        <Button onPress={() => props.billPriceHandler('del')}>DEL</Button>
       </View>
 
       <Button
-        color='red'
+        color='#e45c69'
         onPress={() => props.doTheCalculate(props.splitBy)}
       >DONE</Button>
 

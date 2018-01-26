@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import ControlPanel from '../../components/ControlPanel/ControlPanel';
 import FacePanel from '../../components/FacePanel/FacePanel';
-import HeadingPanel from '../../components/HeadingPanel/HeadingPanel';
+import HeadingPanel from '../../components/HeaderPanel/HeaderPanel';
 import KeyBoard from '../../components/KeyBoard/KeyPad';
 
 import MainText from '../../components/UI/MainText/MainText';
@@ -105,6 +105,7 @@ class HappyTip extends React.Component {
         <View style={styles.headingPanel}>
           <HeadingPanel
             tipPercentage={this.state.tipPercentage}
+            goToSettings={this.props.goToSettings}
           />
         </View>
 
@@ -171,14 +172,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#eeeeee',
-    height: '30%',
+    height: '25%',
     width: '100%'
   },
   keyBoard: {
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#eeeeee',
-    height: '40%',
+    height: '30%',
     width: '100%'
   }
 });
