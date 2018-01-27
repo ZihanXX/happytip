@@ -7,7 +7,7 @@ class TipMeScreen extends React.Component {
   render () {
     return (
       <View>
-        <Text>Tip Me: </Text>
+        <Text>Considering Supporting Us?</Text>
       </View>
     );
   }

@@ -25,6 +25,7 @@ const facePanel = (props) => {
     }
 
 
+
     return (
       <View style={styles.container}>
         <TouchableHighlight onPress={props.minusPercentage}>
@@ -33,8 +34,12 @@ const facePanel = (props) => {
         {
           faceSource == 'YOU ARE RICH' ?
             <View>
-              <HeadingText>YOU ARE RICH!</HeadingText>
-              <MainText>Consider tipping this app?</MainText>
+              <TouchableHighlight onPress={props.goToTipMe}>
+                <View>
+                  <HeadingText>YOU ARE RICH!</HeadingText>
+                  <MainText>Consider tipping this app?</MainText>
+                </View>
+              </TouchableHighlight>
             </View>
             :
             <View>

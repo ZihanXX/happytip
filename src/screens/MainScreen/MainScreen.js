@@ -1,31 +1,48 @@
 import React from 'react';
-import { StyleSheet, View, Dimensions } from 'react-native';
+import { StyleSheet, View, Dimensions, AsyncStorage } from 'react-native';
 import ControlPanel from '../../components/ControlPanel/ControlPanel';
 import FacePanel from '../../components/FacePanel/FacePanel';
 import HeadingPanel from '../../components/HeaderPanel/HeaderPanel';
-import KeyPad from '../../components/KeyBoard/KeyPad';
+import KeyPad from '../../components/KeyPad/KeyPad';
 import Modal from 'react-native-modalbox';
+
 
 
 
 class MainScreen extends React.Component {
 
+
   state = {
+    concurrency: '$',
     taxIncluded: true,
     taxRate: 9.25,
     tipPercentage: 15,
     totalBill: '',
     splitBy: 1,
     youPay: 0,
-    splitBill: 0,
-    concurrency: '$'
+    splitBill: 0
   }
 
+  componentDidMount() {
+    AsyncStorage.getItem("concurrency").then((value) => {
+      value !== null ? this.setState({concurrency: value}) : null;
+    }).done();
+    AsyncStorage.getItem("taxIncluded").then((value) => {
+      value !== null ? this.setState({taxIncluded: value == 'true' ? true : false}) : null;
+    }).done();
+    AsyncStorage.getItem("taxRate").then((value) => {
+      value !== null ? this.setState({taxRate: Number(value)}) : null;
+    }).done();
+    AsyncStorage.getItem("tipPercentage").then((value) => {
+      value !== null ? this.setState({tipPercentage: Number(value)}) : null;
+    }).done();
+  }
 
 
   addPercentage = () => {
     const tipPercentage = this.state.tipPercentage < 100 ? this.state.tipPercentage : 100;
     this.setState({ tipPercentage: tipPercentage + 1 });
+    AsyncStorage.setItem('tipPercentage', String(tipPercentage + 1));
     const totalBill = this.state.totalBill;
     const taxRate = this.state.taxRate;
     const taxIncluded = this.state.taxIncluded;
@@ -42,6 +59,7 @@ class MainScreen extends React.Component {
   minusPercentage = () => {
     const tipPercentage = this.state.tipPercentage > 0 ? this.state.tipPercentage : 0;
     this.setState({ tipPercentage: tipPercentage - 1 });
+    AsyncStorage.setItem('tipPercentage', String(tipPercentage - 1));
     const totalBill = this.state.totalBill;
     const taxRate = this.state.taxRate;
     const taxIncluded = this.state.taxIncluded;
@@ -71,12 +89,13 @@ class MainScreen extends React.Component {
   }
 
   toggleTaxInclHandler = () => {
-    const taxIncluded = this.state.taxIncluded;
-    this.setState({ taxIncluded: !taxIncluded });
+    const taxIncluded = !this.state.taxIncluded;
+    this.setState({ taxIncluded: taxIncluded });
+    AsyncStorage.setItem('taxIncluded', taxIncluded ? 'true' : 'false');
     const totalBill = this.state.totalBill;
     const tipPercentage = this.state.tipPercentage;
     const taxRate = this.state.taxRate;
-    const youPay = !taxIncluded
+    const youPay = taxIncluded
       ? totalBill * (1.00 + tipPercentage / 100.00)
       : totalBill / (1.00 + taxRate / 100.00) * (1.00 + tipPercentage / 100.00);
     const splitBy = this.state.splitBy;
@@ -115,10 +134,12 @@ class MainScreen extends React.Component {
 
   setConcurrencyHandler = (concurrency) => {
     this.setState({ concurrency: concurrency });
+    AsyncStorage.setItem('concurrency', concurrency);
   }
 
   setTaxRateHandler = (taxRate) => {
     this.setState({ taxRate: taxRate });
+    AsyncStorage.setItem('taxRate', String(taxRate));
     const totalBill = this.state.totalBill;
     const tipPercentage = this.state.tipPercentage;
     const splitBy = this.state.splitBy;
@@ -134,6 +155,12 @@ class MainScreen extends React.Component {
 
   showKeyPadHandler = () => {
     this.refs.keyPadModal.open();
+  }
+
+  goToTipMeHandler = () => {
+    this.props.navigator.push({
+      screen: 'happy-tip.TipMeScreen',
+    });
   }
 
 
@@ -153,6 +180,7 @@ class MainScreen extends React.Component {
             tipPercentage={this.state.tipPercentage}
             addPercentage={this.addPercentage}
             minusPercentage={this.minusPercentage}
+            goToTipMe={this.goToTipMeHandler}
           />
         </View>
 

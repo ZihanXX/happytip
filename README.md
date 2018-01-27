@@ -9,13 +9,16 @@
 * percentages and faces
 * keypad and everything
 * navigation for god sake
-
-## DID:
 * tax rate setting
 * concurrency setting
 * toggle keypad
 
+## DID:
+* save user data
+* clean up the src files
+
 
 ## TODO:
-* save user data
 * improvise UI
+* tap/swipe to change tip rate
+* clean up unused vars and files

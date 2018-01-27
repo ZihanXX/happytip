@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableHighlight, StyleSheet } from 'react-native';
 import MainText from '../../../components/UI/MainText/MainText';
 import HeadingText from '../../../components/UI/HeadingText/HeadingText';
-import KeyPad from '../../../components/Settings/SettingItems/SettingTaxRate/KeyPad/KeyPad';
+import KeyPad from '../../../components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad';
 
 
 

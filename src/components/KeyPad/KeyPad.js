@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Button from './Button/Button';
+import Button from '../../components/UI/Button/Button';
 
 
 const keyPad = props => {

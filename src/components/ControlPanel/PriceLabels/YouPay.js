@@ -12,8 +12,8 @@ const youPay = props => (
     <TouchableOpacity onPress={props.toggleTaxInclHandler}>
       <View>
         {props.taxIncluded ?
-          <Text>{props.taxRate}% tax incl.</Text> :
-          <Text>{props.taxRate}% tax excl.</Text>
+          <Text>tip after tax</Text> :
+          <Text>tip before {props.taxRate}% tax</Text>
         }
       </View>
     </TouchableOpacity>
