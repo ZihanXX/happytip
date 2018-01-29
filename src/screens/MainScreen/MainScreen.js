@@ -163,6 +163,10 @@ class MainScreen extends React.Component {
     });
   }
 
+  setPercentageToHandler = (tipPercentage) => {
+    this.setState({ tipPercentage: tipPercentage });
+  }
+
 
   render () {
     return (
@@ -181,6 +185,7 @@ class MainScreen extends React.Component {
             addPercentage={this.addPercentage}
             minusPercentage={this.minusPercentage}
             goToTipMe={this.goToTipMeHandler}
+            setPercentageTo={this.setPercentageToHandler}
           />
         </View>
 

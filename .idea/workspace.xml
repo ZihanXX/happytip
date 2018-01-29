@@ -2,21 +2,751 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fad57a7d-6122-47e0-8ff2-c23913e3355d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/imgs/face1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/imgs/face2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/imgs/face3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/imgs/face4.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/HappyTip.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/taskJars.bin" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/YouPay.js" afterPath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/YouPay.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/FacePanel/Face/Face.js" afterPath="$PROJECT_DIR$/src/components/KeyPad/KeyPad.js" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-af.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-af.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-am.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-am.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ar.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ar.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-az-rAZ.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-az-rAZ.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-b+sr+Latn.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-be-rBY.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-be-rBY.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-bg.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-bg.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-bn-rBD.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-bn-rBD.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-bs-rBA.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-bs-rBA.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ca.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ca.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-cs.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-cs.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-da.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-da.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-de.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-de.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-el.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-el.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-en-rAU.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-en-rAU.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-en-rGB.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-en-rGB.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-en-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-en-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-es-rUS.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-es-rUS.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-es.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-es.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-et-rEE.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-et-rEE.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-eu-rES.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-eu-rES.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fa.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fa.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fi.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fr-rCA.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fr-rCA.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fr.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-fr.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-gl-rES.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-gl-rES.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-gu-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-gu-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-h720dp-v13.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hi.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hr.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hr.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hu.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hu.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hy-rAM.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-hy-rAM.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-in.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-in.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-is-rIS.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-is-rIS.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-it.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-it.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-iw.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-iw.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ja.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ja.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ka-rGE.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ka-rGE.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-kk-rKZ.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-km-rKH.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-km-rKH.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-kn-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-kn-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ko.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ko.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ky-rKG.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ky-rKG.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-land.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-land.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-large-v4.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-large-v4.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ldltr-v21.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-lo-rLA.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-lo-rLA.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-lt.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-lt.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-lv.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-lv.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-mk-rMK.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-mk-rMK.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ml-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ml-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-mn-rMN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-mn-rMN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-mr-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-mr-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ms-rMY.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ms-rMY.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-my-rMM.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-my-rMM.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-nb.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-nb.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ne-rNP.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ne-rNP.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-night-v8.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-night-v8.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-nl.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-nl.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pa-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pa-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pl.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pl.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-port.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-port.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pt-rBR.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pt-rBR.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pt-rPT.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pt-rPT.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pt.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-pt.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ro.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ro.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ru.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ru.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-si-rLK.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-si-rLK.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sk.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sk.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sl.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sl.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sq-rAL.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sq-rAL.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sr.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sr.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sv.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sv.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sw.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sw.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sw600dp-v13.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ta-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ta-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-te-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-te-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-th.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-th.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-tl.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-tl.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-tr.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-tr.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-uk.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-uk.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ur-rPK.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-ur-rPK.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-uz-rUZ.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v11.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v11.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v12.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v12.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v13.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v13.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v14.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v14.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v16.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v16.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v17.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v17.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v18.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v18.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v21.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v21.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v22.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v22.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v23.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v23.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v24.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v24.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v25.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v25.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-vi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-vi.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-xlarge-v4.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zh-rCN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zh-rCN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zh-rHK.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zh-rHK.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zh-rTW.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zh-rTW.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zu.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values-zu.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/single/debug.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-af.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-af.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-am.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-am.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ar.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ar.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-az-rAZ.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-az-rAZ.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-be-rBY.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-be-rBY.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-bg.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-bg.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-bn-rBD.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-bn-rBD.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-bs-rBA.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-bs-rBA.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ca.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ca.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-cs.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-cs.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-da.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-da.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-de.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-de.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-el.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-el.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-es.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-es.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-et-rEE.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-et-rEE.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-eu-rES.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-eu-rES.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-fa.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-fa.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-fi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-fi.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-fr.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-fr.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-gl-rES.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-gl-rES.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-gu-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-gu-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hi.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hr.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hr.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hu.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hu.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hy-rAM.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-hy-rAM.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-in.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-in.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-is-rIS.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-is-rIS.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-it.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-it.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-iw.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-iw.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ja.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ja.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ka-rGE.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ka-rGE.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-kk-rKZ.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-km-rKH.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-km-rKH.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-kn-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-kn-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ko.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ko.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ky-rKG.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ky-rKG.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-land.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-land.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-lo-rLA.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-lo-rLA.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-lt.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-lt.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-lv.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-lv.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-mk-rMK.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-mk-rMK.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ml-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ml-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-mn-rMN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-mn-rMN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-mr-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-mr-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ms-rMY.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ms-rMY.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-my-rMM.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-my-rMM.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-nb.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-nb.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ne-rNP.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ne-rNP.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-nl.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-nl.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pa-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pa-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pl.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pl.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-port.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-port.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pt.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-pt.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ro.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ro.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ru.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ru.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-si-rLK.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-si-rLK.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sk.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sk.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sl.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sl.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sq-rAL.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sq-rAL.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sr.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sr.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sv.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sv.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sw.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sw.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ta-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ta-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-te-rIN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-te-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-th.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-th.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-tl.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-tl.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-tr.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-tr.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-uk.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-uk.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ur-rPK.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-ur-rPK.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-uz-rUZ.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v11.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v11.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v12.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v12.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v13.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v13.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v14.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v14.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v16.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v16.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v17.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v17.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v18.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v18.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v21.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v21.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v22.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v22.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v23.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v23.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v24.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v24.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v25.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-v25.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-vi.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-vi.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-zu.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values-zu.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/zip-cache/0O8G6kgEWviX9Yz_CLk716Di0oI=" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/zip-cache/0O8G6kgEWviX9Yz_CLk716Di0oI=" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/100.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/101.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/102.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/103.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/104.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/105.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/106.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/107.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/108.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/109.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/110.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/111.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/112.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/113.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/114.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/115.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/116.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/117.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/118.jar" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/118.jar" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/119.jar" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/119.jar" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/120.jar" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/120.jar" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/121.jar" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/121.jar" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/122.jar" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/122.jar" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/compat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/coreui/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/coreutils/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$animator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/design/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/fragment/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/graphics/drawable/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/graphics/drawable/animated/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/mediacompat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/transition/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/transition/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v4/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/appcompat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/recyclerview/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/recyclerview/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/recyclerview/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/recyclerview/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/android/support/v7/recyclerview/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/MainActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/MainApplication.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$animator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$menu.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$mipmap.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R$xml.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/appapp/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$animator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/aurelhubert/ahbottomnavigation/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/balysv/materialmenu/extras/toolbar/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/drawee/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/drawee/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/drawee/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/drawee/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/drawee/backends/pipeline/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/drawee/backends/pipeline/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/drawee/backends/pipeline/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/drawee/backends/pipeline/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/fbcore/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/fbui/textlayoutbuilder/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/fbui/textlayoutbuilder/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/imagepipeline/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/imagepipeline/backends/okhttp3/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/imagepipelinebase/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R$xml.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/react/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/facebook/soloader/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$animator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$menu.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R$xml.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/com/reactnativenavigation/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/30/org/webkit/android_jsc/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/31.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/32.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/33.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/34.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/37.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/38.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/39.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/40.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/41.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/42.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/43.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/44.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/45.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/46.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/47.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/48.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/49.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/50.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/51.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/52.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/53.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/54.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/55.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/56.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/57.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/59.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/63.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/64.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/65.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/66.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/67.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/68.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/69.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/70.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/71.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/72.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/73.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/74.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/75.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/76.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/77.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/78.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/79.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/80.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/82.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/83.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/84.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/85.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/86.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/87.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/88.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/89.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/90.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/91.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/92.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/93.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/94.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/95.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/96.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/97.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/98.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/99.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/debug/app-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/Base.lproj/LaunchScreen.nib" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/Base.lproj/LaunchScreen.nib" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/PlugIns/appappTests.xctest/appappTests" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/PlugIns/appappTests.xctest/appappTests" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/_CodeSignature/CodeResources" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/appapp" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/appapp" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTActionSheet.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTActionSheet.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTAnimation.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTAnimation.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTBlob.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTBlob.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTGeolocation.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTGeolocation.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTImage.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTImage.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTLinking.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTLinking.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTNetwork.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTNetwork.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTSettings.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTSettings.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTText.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTText.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTVibration.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTVibration.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTWebSocket.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libRCTWebSocket.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libReact.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libReact.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libReactNativeNavigation.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libReactNativeNavigation.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libcxxreact.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libcxxreact.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libdouble-conversion.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libdouble-conversion.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libfishhook.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libfishhook.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libjschelpers.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libjschelpers.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libprivatedata.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libprivatedata.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libthird-party.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libthird-party.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libyoga.a" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/libyoga.a" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTActionSheet.build/Debug-iphoneos/RCTActionSheet.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTActionSheet.build/Debug-iphoneos/RCTActionSheet.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTAnimation.build/Debug-iphoneos/RCTAnimation.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTAnimation.build/Debug-iphoneos/RCTAnimation.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/Objects-normal/arm64/RCTBlob-tvOS.LinkFileList" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/Objects-normal/arm64/RCTBlob-tvOS.LinkFileList" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/RCTBlob-tvOS-own-target-headers.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/RCTBlob-tvOS-own-target-headers.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/RCTBlob-tvOS-project-headers.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/RCTBlob-tvOS-project-headers.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/RCTBlob-tvOS.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/RCTBlob-tvOS.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-appletvos/RCTBlob-tvOS.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-iphoneos/RCTBlob.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-iphoneos/RCTBlob.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-iphonesimulator/RCTBlob.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTBlob.build/Debug-iphonesimulator/RCTBlob.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTGeolocation.build/Debug-iphoneos/RCTGeolocation.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTGeolocation.build/Debug-iphoneos/RCTGeolocation.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTImage.build/Debug-iphoneos/RCTImage.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTImage.build/Debug-iphoneos/RCTImage.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTLinking.build/Debug-iphoneos/RCTLinking.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTLinking.build/Debug-iphoneos/RCTLinking.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTNetwork.build/Debug-iphoneos/RCTNetwork.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTNetwork.build/Debug-iphoneos/RCTNetwork.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTSettings.build/Debug-iphoneos/RCTSettings.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTSettings.build/Debug-iphoneos/RCTSettings.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTSettings.build/Debug-iphonesimulator/RCTSettings.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTSettings.build/Debug-iphonesimulator/RCTSettings.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTText.build/Debug-iphoneos/RCTText.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTText.build/Debug-iphoneos/RCTText.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTVibration.build/Debug-iphoneos/RCTVibration.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTVibration.build/Debug-iphoneos/RCTVibration.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-appletvos/RCTWebSocket-tvOS.build/Objects-normal/arm64/RCTWebSocket-tvOS.LinkFileList" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-appletvos/RCTWebSocket-tvOS.build/Objects-normal/arm64/RCTWebSocket-tvOS.LinkFileList" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-appletvos/RCTWebSocket-tvOS.build/RCTWebSocket-tvOS-project-headers.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-appletvos/RCTWebSocket-tvOS.build/RCTWebSocket-tvOS-project-headers.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-appletvos/RCTWebSocket-tvOS.build/RCTWebSocket-tvOS.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-appletvos/RCTWebSocket-tvOS.build/RCTWebSocket-tvOS.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-appletvos/RCTWebSocket-tvOS.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-appletvos/RCTWebSocket-tvOS.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphoneos/RCTWebSocket.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphoneos/RCTWebSocket.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphoneos/fishhook.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphoneos/fishhook.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/fishhook.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/fishhook.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/Objects-normal/arm64/privatedata-tvOS.LinkFileList" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/Objects-normal/arm64/privatedata-tvOS.LinkFileList" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/privatedata-tvOS-own-target-headers.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/privatedata-tvOS-own-target-headers.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/privatedata-tvOS-project-headers.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/privatedata-tvOS-project-headers.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/privatedata-tvOS.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-appletvos/privatedata-tvOS.build/privatedata-tvOS.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/React.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/React.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/cxxreact.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/cxxreact.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/double-conversion.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/double-conversion.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/jschelpers.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/jschelpers.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/privatedata.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/privatedata.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/third-party.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/third-party.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/yoga.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphoneos/yoga.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/cxxreact.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/cxxreact.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/double-conversion.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/double-conversion.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/jschelpers.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/jschelpers.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/privatedata.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/privatedata.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/third-party.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/third-party.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/yoga.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/yoga.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/ReactNativeNavigation.build/Debug-iphoneos/ReactNativeNavigation.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/ReactNativeNavigation.build/Debug-iphoneos/ReactNativeNavigation.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/ReactNativeNavigation.build/Debug-iphonesimulator/ReactNativeNavigation.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/ReactNativeNavigation.build/Debug-iphonesimulator/ReactNativeNavigation.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-appletvos/appapp-tvOSTests.build/Objects-normal/arm64/appapp-tvOSTests.LinkFileList" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-appletvos/appapp-tvOSTests.build/Objects-normal/arm64/appapp-tvOSTests.LinkFileList" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-appletvos/appapp-tvOSTests.build/appapp-tvOSTests-project-headers.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-appletvos/appapp-tvOSTests.build/appapp-tvOSTests-project-headers.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-appletvos/appapp-tvOSTests.build/appapp-tvOSTests.hmap" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-appletvos/appapp-tvOSTests.build/appapp-tvOSTests.hmap" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-appletvos/appapp-tvOSTests.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-appletvos/appapp-tvOSTests.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphoneos/appapp.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphoneos/appapp.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphoneos/appappTests.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphoneos/appappTests.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appapp.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appapp.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appappTests.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appappTests.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Logs/Build/2BB24BD6-009F-47DF-A4A7-3D88C7ABC3D4.xcactivitylog" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Logs/Build/C24C2A33-923E-4CA7-B53E-92F15ED989F1.xcactivitylog" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Logs/Build/Cache.db" afterPath="$PROJECT_DIR$/ios/Build/Logs/Build/Cache.db" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/info.plist" afterPath="$PROJECT_DIR$/ios/Build/info.plist" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/AppDelegate.o-3205DS4IJLQ13" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/AppDelegate.o-3205DS4IJLQ13" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Conv.o-2LWF8W98B061N" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Conv.o-2LWF8W98B061N" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/CxxNativeModule.o-3R3JV240WYNUU" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/CxxNativeModule.o-3R3JV240WYNUU" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Instance.o-1F01L0V4XJ3N9" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Instance.o-1F01L0V4XJ3N9" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSBigString.o-25K1OKDBBB7LA" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSBigString.o-25K1OKDBBB7LA" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSBundleType.o-VJRO8P73TC6G" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSBundleType.o-VJRO8P73TC6G" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCExecutor.o-3OF0RZBO9QEO3" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCExecutor.o-3OF0RZBO9QEO3" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCHelpers.o-2ZO0RNIRSM47H" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCHelpers.o-2ZO0RNIRSM47H" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCLegacyTracing.o-10YDPR5JYVY9L" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCLegacyTracing.o-10YDPR5JYVY9L" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCMemory.o-56RY445QBRJR" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCMemory.o-56RY445QBRJR" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCNativeModules.o-158LOXZN4RFKA" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCNativeModules.o-158LOXZN4RFKA" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCPerfStats.o-2U9FWAQBQLPKT" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCPerfStats.o-2U9FWAQBQLPKT" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCSamplingProfiler.o-1MSJKDTBJXLJX" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCSamplingProfiler.o-1MSJKDTBJXLJX" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCTracing.o-3357XGR2F7NAD" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCTracing.o-3357XGR2F7NAD" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCUtils.o-2SBNEL23UHMQE" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSCUtils.o-2SBNEL23UHMQE" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSIndexedRAMBundle.o-1JQEFOIAEK0RS" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSIndexedRAMBundle.o-1JQEFOIAEK0RS" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSIndexedRAMBundleRegistry.o-1XYX3A952U3QO" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/JSIndexedRAMBundleRegistry.o-1XYX3A952U3QO" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/MethodCall.o-3EEKNDYL5Q4MN" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/MethodCall.o-3EEKNDYL5Q4MN" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/ModuleRegistry.o-28FY8B9DB1U1N" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/ModuleRegistry.o-28FY8B9DB1U1N" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/NSDataBigString.o-2OKYCVVTIHLD8" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/NSDataBigString.o-2OKYCVVTIHLD8" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/NativeToJsBridge.o-2SLHS9286F4CC" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/NativeToJsBridge.o-2SLHS9286F4CC" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Platform.o-3EYUWCNV0XIG" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Platform.o-3EYUWCNV0XIG" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RAMBundleRegistry.o-B1UVF8NN6ZIV" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RAMBundleRegistry.o-B1UVF8NN6ZIV" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCCustomBarButtonItem.o-3N2AXTPRKLPL3" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCCustomBarButtonItem.o-3N2AXTPRKLPL3" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCDrawerController.o-39E5RUR40OC8T" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCDrawerController.o-39E5RUR40OC8T" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCLightBox.o-3HSYJWDIV7Z7Y" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCLightBox.o-3HSYJWDIV7Z7Y" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCManager.o-3956SQXB9WS4C" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCManager.o-3956SQXB9WS4C" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCManagerModule.o-VWIN6QP3BNRO" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCManagerModule.o-VWIN6QP3BNRO" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCNavigationController.o-1YTF9Q9XFK1PP" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCNavigationController.o-1YTF9Q9XFK1PP" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCNotification.o-FL67L07HNALS" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCNotification.o-FL67L07HNALS" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCTabBarController.o-1LUIU3WEKURS9" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCTabBarController.o-1LUIU3WEKURS9" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCTheSideBarManagerViewController.o-27R18ZLX0DMJS" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCTheSideBarManagerViewController.o-27R18ZLX0DMJS" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCTitleViewHelper.o-6097T29Y22EZ" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCTitleViewHelper.o-6097T29Y22EZ" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCToolBar.o-2LF1BABFU9ENS" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCToolBar.o-2LF1BABFU9ENS" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCViewController.o-19HW1Z8760JTL" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCCViewController.o-19HW1Z8760JTL" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAccessibilityManager.o-20RVXYYRBKZH6" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAccessibilityManager.o-20RVXYYRBKZH6" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTActionSheetManager.o-2N7PAQAL0BA7Z" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTActionSheetManager.o-2N7PAQAL0BA7Z" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTActivityIndicatorViewManager.o-1CUJ493UL77YD" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTActivityIndicatorViewManager.o-1CUJ493UL77YD" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAlertManager.o-1T04OAIAWM9JB" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAlertManager.o-1T04OAIAWM9JB" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAnimatedNode.o-3UC7OP60NDRVM" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAnimatedNode.o-3UC7OP60NDRVM" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAnimationUtils.o-WZ91OCGENNS1" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAnimationUtils.o-WZ91OCGENNS1" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAsyncLocalStorage.o-48U087VVSVI5" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTAsyncLocalStorage.o-48U087VVSVI5" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTBlobManager.o-2SELWCY7GDFQU" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTBlobManager.o-2SELWCY7GDFQU" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTBridge.o-WAWUYNQ0FY44" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTBridge.o-WAWUYNQ0FY44" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTBundleURLProvider.o-2PB798I8E4RK0" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTBundleURLProvider.o-2PB798I8E4RK0" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTComponentData.o-1Z2MZ2K3UHCSN" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTComponentData.o-1Z2MZ2K3UHCSN" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert+CoreLocation.o-1EBXG6S9LTSHP" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert+CoreLocation.o-1EBXG6S9LTSHP" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert+Text.o-2J0B1N1NZ543V" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert+Text.o-2J0B1N1NZ543V" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert+Transform.o-3GKDL54YQR27I" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert+Transform.o-3GKDL54YQR27I" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert+UIBarButtonSystemItem.o-2CD7AF83QKZ8J" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert+UIBarButtonSystemItem.o-2CD7AF83QKZ8J" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert.o-1YET888PPTTMO" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTConvert.o-1YET888PPTTMO" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTCxxBridge.o-303XL9UAMUYY2" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTCxxBridge.o-303XL9UAMUYY2" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTCxxMethod.o-JZ1ZBI5YLR4P" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTCxxMethod.o-JZ1ZBI5YLR4P" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTCxxModule.o-3I53TZ1Q3COKP" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTCxxModule.o-3I53TZ1Q3COKP" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTCxxUtils.o-1VEPH8WFE0M51" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTCxxUtils.o-1VEPH8WFE0M51" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDataRequestHandler.o-3PZQVT48C1JUM" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDataRequestHandler.o-3PZQVT48C1JUM" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDatePicker.o-7T50MTEHDDYZ" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDatePicker.o-7T50MTEHDDYZ" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDatePickerManager.o-DFTO8KBF6T2L" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDatePickerManager.o-DFTO8KBF6T2L" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDecayAnimation.o-O85KIOH3NQCM" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDecayAnimation.o-O85KIOH3NQCM" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDevSettings.o-2ZY2ZW1GTXTJ1" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDevSettings.o-2ZY2ZW1GTXTJ1" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDiffClampAnimatedNode.o-2WUL675XADKYT" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDiffClampAnimatedNode.o-2WUL675XADKYT" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDivisionAnimatedNode.o-NSEEQTZPR9R1" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTDivisionAnimatedNode.o-NSEEQTZPR9R1" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTEventAnimation.o-PJ0J4VQFV49U" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTEventAnimation.o-PJ0J4VQFV49U" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTExceptionsManager.o-1ZW1881PFLYT8" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTExceptionsManager.o-1ZW1881PFLYT8" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFileRequestHandler.o-24PK3QL0VOU2X" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFileRequestHandler.o-24PK3QL0VOU2X" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFollyConvert.o-P29OXLZ39O44" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFollyConvert.o-P29OXLZ39O44" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFont.o-XVQ0Z32SDAQ6" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFont.o-XVQ0Z32SDAQ6" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFontAttributes.o-1UUNXRJULPZ28" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFontAttributes.o-1UUNXRJULPZ28" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFrameAnimation.o-1209NGHIUMW1H" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTFrameAnimation.o-1209NGHIUMW1H" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTGIFImageDecoder.o-G5LY2YFKGXZ6" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTGIFImageDecoder.o-G5LY2YFKGXZ6" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTHTTPRequestHandler.o-SECKCG5AE28O" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTHTTPRequestHandler.o-SECKCG5AE28O" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTHelpers.o-162LL15EKUDDU" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTHelpers.o-162LL15EKUDDU" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageBlurUtils.o-2YTGE5BUL0IXO" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageBlurUtils.o-2YTGE5BUL0IXO" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageCache.o-1SBBNR7VUDOEN" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageCache.o-1SBBNR7VUDOEN" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageEditingManager.o-ZD8XWA7ZPGWH" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageEditingManager.o-ZD8XWA7ZPGWH" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageLoader.o-N4S4HGJAXO3Y" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageLoader.o-N4S4HGJAXO3Y" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageShadowView.o-Z8T53BOM3K1Y" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageShadowView.o-Z8T53BOM3K1Y" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageSource.o-29NTC7WW9SGPS" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageSource.o-29NTC7WW9SGPS" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageStoreManager.o-1UF78G175X2W4" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageStoreManager.o-1UF78G175X2W4" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageUtils.o-355CVFK074P5K" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageUtils.o-355CVFK074P5K" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageView.o-QQDIG0XWDLIU" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageView.o-QQDIG0XWDLIU" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageViewManager.o-1XFW2DZB5L6D2" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTImageViewManager.o-1XFW2DZB5L6D2" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTInspector.o-3E0H9ZL9L3YGH" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTInspector.o-3E0H9ZL9L3YGH" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTInspectorDevServerHelper.o-DEUL8A75QNGD" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTInspectorDevServerHelper.o-DEUL8A75QNGD" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTInterpolationAnimatedNode.o-I9UBUHAM9G1D" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTInterpolationAnimatedNode.o-I9UBUHAM9G1D" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTJSCErrorHandling.o-1ZE0IV0ZS68DB" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTJSCErrorHandling.o-1ZE0IV0ZS68DB" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTJSCHelpers.o-2FEADV4MC5DBD" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTJSCHelpers.o-2FEADV4MC5DBD" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTJavaScriptLoader.o-1KH76RYKAYNRX" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTJavaScriptLoader.o-1KH76RYKAYNRX" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLayoutAnimation.o-2KTSEUCCHTGA5" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLayoutAnimation.o-2KTSEUCCHTGA5" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLayoutAnimationGroup.o-2EP4PBNTAQ4G5" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLayoutAnimationGroup.o-2EP4PBNTAQ4G5" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLinkingManager.o-2WSJU0IKWVZ9M" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLinkingManager.o-2WSJU0IKWVZ9M" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLocalAssetImageLoader.o-MRD33CDJARYH" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLocalAssetImageLoader.o-MRD33CDJARYH" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLocationObserver.o-20Y6D6259L7IC" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTLocationObserver.o-20Y6D6259L7IC" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTMaskedView.o-1OTEPFFUP9YXW" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTMaskedView.o-1OTEPFFUP9YXW" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTMaskedViewManager.o-1416OKI15U2DV" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTMaskedViewManager.o-1416OKI15U2DV" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTMessageThread.o-2AH8O6P8JLKKF" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTMessageThread.o-2AH8O6P8JLKKF" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTModalHostView.o-39GWMKUYN7DEN" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTModalHostView.o-39GWMKUYN7DEN" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTModalHostViewController.o-2HMNM6KOC3LG9" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTModalHostViewController.o-2HMNM6KOC3LG9" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTModalHostViewManager.o-28OTVX8OBZSTH" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTModalHostViewManager.o-28OTVX8OBZSTH" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTModuleMethod.o-1L2ZC0URDXDTC" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTModuleMethod.o-1L2ZC0URDXDTC" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNativeAnimatedModule.o-3G5O4TTYUW8PZ" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNativeAnimatedModule.o-3G5O4TTYUW8PZ" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNativeAnimatedNodesManager.o-29A798KAFGD2T" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNativeAnimatedNodesManager.o-29A798KAFGD2T" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNativeModule.o-26L86IP8AQTJD" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNativeModule.o-26L86IP8AQTJD" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNavItemManager.o-230KD7XSHVKIN" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNavItemManager.o-230KD7XSHVKIN" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNavigator.o-JXR998GCT95Q" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNavigator.o-JXR998GCT95Q" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNavigatorManager.o-32Z4X53OHXKUU" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNavigatorManager.o-32Z4X53OHXKUU" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNetInfo.o-3604DHAE9Z877" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNetInfo.o-3604DHAE9Z877" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNetworkTask.o-1LDKVCCXP19B2" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNetworkTask.o-1LDKVCCXP19B2" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNetworking.o-2OVTNA01M8JL" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTNetworking.o-2OVTNA01M8JL" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTObjcExecutor.o-1CLS1FRH3R2SU" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTObjcExecutor.o-1CLS1FRH3R2SU" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPackagerConnection.o-1QIRXZ9ISGK4O" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPackagerConnection.o-1QIRXZ9ISGK4O" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPerfMonitor.o-2PD57D5XPWYU8" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPerfMonitor.o-2PD57D5XPWYU8" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPicker.o-1LW2YEI2UPU3F" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPicker.o-1LW2YEI2UPU3F" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPickerManager.o-2PW3B17DWY595" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPickerManager.o-2PW3B17DWY595" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTProfile.o-164Y6Q55X0Y5L" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTProfile.o-164Y6Q55X0Y5L" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTProgressViewManager.o-3NG1GLYIDSJX" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTProgressViewManager.o-3NG1GLYIDSJX" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPropsAnimatedNode.o-2R4IT8LQPMH42" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTPropsAnimatedNode.o-2R4IT8LQPMH42" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRawTextManager.o-1SUP9BVAYQIMF" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRawTextManager.o-1SUP9BVAYQIMF" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTReconnectingWebSocket.o-1491WG6HY6AVS" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTReconnectingWebSocket.o-1491WG6HY6AVS" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRedBox.o-1T0R2TRI48E2M" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRedBox.o-1T0R2TRI48E2M" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRefreshControlManager.o-2WOCAC8SB4EYF" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRefreshControlManager.o-2WOCAC8SB4EYF" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTResizeMode.o-3MIEFWW6PWNPP" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTResizeMode.o-3MIEFWW6PWNPP" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRootContentView.o-1VU4EWIP51T8D" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRootContentView.o-1VU4EWIP51T8D" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRootShadowView.o-Z0EICBZLCMBR" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRootShadowView.o-Z0EICBZLCMBR" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRootView.o-2LASV1D6AOYN" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTRootView.o-2LASV1D6AOYN" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSRWebSocket.o-3NRX9Q3BOJPLG" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSRWebSocket.o-3NRX9Q3BOJPLG" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSafeAreaShadowView.o-3VX34F50D11KA" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSafeAreaShadowView.o-3VX34F50D11KA" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSafeAreaView.o-5Y38SQXDBXGU" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSafeAreaView.o-5Y38SQXDBXGU" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSafeAreaViewManager.o-2515LHCMQFHP1" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSafeAreaViewManager.o-2515LHCMQFHP1" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSamplingProfilerPackagerMethod.o-1E233XOP0WMAI" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSamplingProfilerPackagerMethod.o-1E233XOP0WMAI" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTScrollContentShadowView.o-2NODSHJIB28BS" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTScrollContentShadowView.o-2NODSHJIB28BS" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTScrollContentViewManager.o-3R6Y3K4LT5JJ" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTScrollContentViewManager.o-3R6Y3K4LT5JJ" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTScrollView.o-868YL8TI548V" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTScrollView.o-868YL8TI548V" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTScrollViewManager.o-1M4JPMHMWS073" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTScrollViewManager.o-1M4JPMHMWS073" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSegmentedControl.o-3LO8JGN56Z497" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSegmentedControl.o-3LO8JGN56Z497" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSegmentedControlManager.o-1O7FCG7U1SRNW" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSegmentedControlManager.o-1O7FCG7U1SRNW" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSettingsManager.o-10H1TNA6CQAY4" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSettingsManager.o-10H1TNA6CQAY4" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowRawText.o-3EQ2QE0IR294E" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowRawText.o-3EQ2QE0IR294E" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowText.o-1ZHOS9AD9NGTF" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowText.o-1ZHOS9AD9NGTF" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowTextField.o-1MQ76NSW27IMI" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowTextField.o-1MQ76NSW27IMI" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowTextView.o-2B0849LG2N0FL" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowTextView.o-2B0849LG2N0FL" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowView+Internal.o-16A8STAVFN98O" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowView+Internal.o-16A8STAVFN98O" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowView+Layout.o-2ZMTLTWFHOI7P" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowView+Layout.o-2ZMTLTWFHOI7P" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowView.o-6GGZ4QKRIU05" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTShadowView.o-6GGZ4QKRIU05" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSliderManager.o-28O6XT0JM7HIF" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSliderManager.o-28O6XT0JM7HIF" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSpringAnimation.o-3C9DPLC3BTPFE" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSpringAnimation.o-3C9DPLC3BTPFE" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTStatusBarManager.o-7N48N5U6ZBCE" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTStatusBarManager.o-7N48N5U6ZBCE" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTStyleAnimatedNode.o-14FL7V48MUQR" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTStyleAnimatedNode.o-14FL7V48MUQR" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSwitch.o-D3I2JRII7BIM" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSwitch.o-D3I2JRII7BIM" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSwitchManager.o-1KG18QX5K0TQR" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTSwitchManager.o-1KG18QX5K0TQR" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTabBar.o-2GX66Z0UO3ZQJ" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTabBar.o-2GX66Z0UO3ZQJ" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTabBarItem.o-33F3K4QNRC941" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTabBarItem.o-33F3K4QNRC941" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTabBarItemManager.o-104GU03QOWKFT" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTabBarItemManager.o-104GU03QOWKFT" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTabBarManager.o-L7VB2OH2NID2" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTabBarManager.o-L7VB2OH2NID2" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTText.o-1XJIP1JUOL338" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTText.o-1XJIP1JUOL338" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextField.o-2L1N2PV0LIDAD" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextField.o-2L1N2PV0LIDAD" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextFieldManager.o-1E1NMAATDATQI" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextFieldManager.o-1E1NMAATDATQI" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextInput.o-1Y0VLQ0WYD2K0" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextInput.o-1Y0VLQ0WYD2K0" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextManager.o-2TVSDVDMAXTPS" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextManager.o-2TVSDVDMAXTPS" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextSelection.o-NYVH26YQ1F3W" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextSelection.o-NYVH26YQ1F3W" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextView.o-23UQ74VNLUOLR" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextView.o-23UQ74VNLUOLR" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextViewManager.o-1SQCRFZH3JO4T" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTextViewManager.o-1SQCRFZH3JO4T" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTouchHandler.o-B6UKXQ63CQ6G" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTTouchHandler.o-B6UKXQ63CQ6G" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTUIManager.o-LXFPX5HZQ9BP" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTUIManager.o-LXFPX5HZQ9BP" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTUIManagerObserverCoordinator.o-V8ZUFZHWRIIM" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTUIManagerObserverCoordinator.o-V8ZUFZHWRIIM" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTUITextField.o-2IF4Y5EF7LX04" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTUITextField.o-2IF4Y5EF7LX04" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTUITextView.o-I6SZNFMA5LB4" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTUITextView.o-I6SZNFMA5LB4" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTVibration.o-1KT8V59ZE2YUN" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTVibration.o-1KT8V59ZE2YUN" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTView.o-2308KKTYJZMTF" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTView.o-2308KKTYJZMTF" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTViewManager.o-34GPR25QAM3MC" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTViewManager.o-34GPR25QAM3MC" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWebSocketExecutor.o-QP0MWRG2KDC4" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWebSocketExecutor.o-QP0MWRG2KDC4" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWebSocketModule.o-GEY2BB279RUV" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWebSocketModule.o-GEY2BB279RUV" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWebView.o-3UKQ6T10DB8AN" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWebView.o-3UKQ6T10DB8AN" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWebViewManager.o-DTB5N9W84168" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWebViewManager.o-DTB5N9W84168" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWrapperViewController.o-S8NDKG0MEFQK" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/RCTWrapperViewController.o-S8NDKG0MEFQK" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/SampleCxxModule.o-230ON9YEQ376H" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/SampleCxxModule.o-230ON9YEQ376H" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/StringBase.o-1HM5VC4O5BT91" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/StringBase.o-1HM5VC4O5BT91" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/UIView+React.o-3OEQ19MIX934Z" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/UIView+React.o-3OEQ19MIX934Z" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Value.o-3BPV8KHXYVW2X" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Value.o-3BPV8KHXYVW2X" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/appappTests.o-13N5E5VQ296SZ" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/appappTests.o-13N5E5VQ296SZ" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/dynamic.o-3UGBVXHN1OX2G" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/dynamic.o-3UGBVXHN1OX2G" />
+      <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/json.o-1NSYZU4XTKF93" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/json.o-1NSYZU4XTKF93" />
+      <change beforePath="$PROJECT_DIR$/ios/appapp.xcodeproj/project.xcworkspace/xcuserdata/ZihanX.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/ios/appapp.xcodeproj/project.xcworkspace/xcuserdata/ZihanX.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/angry.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/happy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/nothappy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/superhappy.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/components/FacePanel/FacePanel.js" afterPath="$PROJECT_DIR$/src/components/FacePanel/FacePanel.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/KeyBoard/Button/Button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/components/KeyBoard/KeyPad.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/SettingItems/SettingTaxRate/KeyPad/KeyPad.js" afterPath="$PROJECT_DIR$/src/components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HappyTip/HappyTip.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js" afterPath="$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingTaxRateScreen.js" afterPath="$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingTaxRateScreen.js" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Settings/SettingItems/TipMeScreen.js" afterPath="$PROJECT_DIR$/src/screens/Settings/SettingItems/TipMeScreen.js" />
-      <change beforePath="$PROJECT_DIR$/src/screens/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,9 +763,31 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="330">
+              <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3645">
+              <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacePanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/FacePanel/FacePanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,10 +849,12 @@
         <option value="$PROJECT_DIR$/src/components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad.js" />
         <option value="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/YouPay.js" />
         <option value="$PROJECT_DIR$/src/screens/Settings/SettingItems/TipMeScreen.js" />
+        <option value="$PROJECT_DIR$/src/components/KeyPad/KeyPad.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/../HappyTip/package.json" />
+        <option value="$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js" />
         <option value="$PROJECT_DIR$/src/components/FacePanel/FacePanel.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/components/KeyPad/KeyPad.js" />
-        <option value="$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js" />
       </list>
     </option>
   </component>
@@ -121,8 +875,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="13" />
+    <option name="y" value="64" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -142,83 +897,103 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="ControlPanel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="FacePanel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="HeaderPanel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="KeyPad" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="MainScreen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="appapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
@@ -228,6 +1003,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,6 +1021,7 @@
       <recent name="$PROJECT_DIR$/src/components/ControlPanel/ToggleTaxIncl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/imgs" />
       <recent name="$PROJECT_DIR$/src/components/UI/KeyPad" />
     </key>
   </component>
@@ -284,27 +1061,26 @@
       <workItem from="1516907278807" duration="3154000" />
       <workItem from="1516915798885" duration="20638000" />
       <workItem from="1516992965770" duration="9592000" />
-      <workItem from="1517008149278" duration="6479000" />
+      <workItem from="1517008149278" duration="9683000" />
+      <workItem from="1517249764815" duration="476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99184000" />
+    <option name="totallyTimeSpent" value="102864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23960535" sideWeight="0.49417636" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21282594" sideWeight="0.5058236" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2314578" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2314578" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -312,6 +1088,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -405,7 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -423,33 +1199,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -457,41 +1214,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FacePanel/Face/Face.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/KeyBoard/Button/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FacePanel/Face/Face.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/KeyBoard/Button/Button.js" />
     <entry file="file://$PROJECT_DIR$/src/components/HeaderPanel/HeaderPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -499,41 +1230,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HappyTip/HappyTip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/store/actions/actionTypes.js" />
+    <entry file="file://$PROJECT_DIR$/src/containers/HappyTip/HappyTip.js" />
     <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/ControlPanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,53 +1247,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FacePanel/FacePanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/KeyPad/KeyPad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/KeyBoard/KeyPad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/KeyBoard/KeyPad.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Settings/Settings.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,9 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,14 +1276,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/KeyPad/KeyPad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3645">
+          <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FacePanel/FacePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="330">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding />
         </state>
       </provider>

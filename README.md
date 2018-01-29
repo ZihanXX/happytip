@@ -12,13 +12,14 @@
 * tax rate setting
 * concurrency setting
 * toggle keypad
-
-## DID:
 * save user data
 * clean up the src files
+
+## DID:
+* tap/swipe to change tip rate
 
 
 ## TODO:
 * improvise UI
-* tap/swipe to change tip rate
+* share with friend
 * clean up unused vars and files

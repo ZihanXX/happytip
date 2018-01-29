@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableHighlight, TouchableOpacity, Image, Button } from 'react-native';
-import AngryFace from '../../assets/imgs/angry.png';
-import NotHappyFace from '../../assets/imgs/nothappy.png';
-import HappyFace from '../../assets/imgs/happy.png';
-import SuperHappyFace from '../../assets/imgs/superhappy.png';
+import Face1 from '../../assets/imgs/face1.png';
+import Face2 from '../../assets/imgs/face2.png';
+import Face3 from '../../assets/imgs/face3.png';
+import Face4 from '../../assets/imgs/face4.png';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
 
@@ -12,14 +12,14 @@ const facePanel = (props) => {
 
 
     var faceSource = '';
-    if (props.tipPercentage < 10) { // noinspection JSAnnotator
-      faceSource = AngryFace;
-    } else if (props.tipPercentage < 15) { // noinspection JSAnnotator
-      faceSource = NotHappyFace;
+    if (props.tipPercentage < 15) { // noinspection JSAnnotator
+      faceSource = Face1;
+    } else if (props.tipPercentage < 18) { // noinspection JSAnnotator
+      faceSource = Face2;
     } else if (props.tipPercentage < 20) { // noinspection JSAnnotator
-      faceSource = HappyFace;
+      faceSource = Face3;
     } else if (props.tipPercentage < 30) { // noinspection JSAnnotator
-      faceSource = SuperHappyFace;
+      faceSource = Face4;
     } else { // noinspection JSAnnotator
       faceSource = 'YOU ARE RICH';
     }
@@ -27,29 +27,51 @@ const facePanel = (props) => {
 
 
     return (
-      <View style={styles.container}>
-        <TouchableHighlight onPress={props.minusPercentage}>
-          <View><MainText> - </MainText></View>
-        </TouchableHighlight>
-        {
-          faceSource == 'YOU ARE RICH' ?
-            <View>
-              <TouchableHighlight onPress={props.goToTipMe}>
-                <View>
-                  <HeadingText>YOU ARE RICH!</HeadingText>
-                  <MainText>Consider tipping this app?</MainText>
-                </View>
-              </TouchableHighlight>
-            </View>
-            :
-            <View>
-              <Image source={faceSource} style={styles.imgStyle}/>
-            </View>
-        }
-        <TouchableHighlight onPress={props.addPercentage}>
-          <View><MainText> + </MainText></View>
-        </TouchableHighlight>
+      <View>
+
+        <View style={styles.container}>
+          {
+            faceSource == 'YOU ARE RICH' ?
+              <View>
+                <TouchableHighlight onPress={props.goToTipMe}>
+                  <View>
+                    <HeadingText>Dude, You are rich!</HeadingText>
+                    <MainText>Consider tipping this app?</MainText>
+                  </View>
+                </TouchableHighlight>
+              </View>
+              :
+              <View>
+                <Image source={faceSource} style={styles.imgStyle}/>
+              </View>
+          }
+        </View>
+
+
+        <View style={styles.container}>
+          <TouchableHighlight onPress={props.minusPercentage}>
+            <View><HeadingText> - </HeadingText></View>
+          </TouchableHighlight>
+
+          <TouchableHighlight onPress={() => props.setPercentageTo(15)}>
+            <View><MainText> 15% </MainText></View>
+          </TouchableHighlight>
+          <TouchableHighlight onPress={() => props.setPercentageTo(18)}>
+            <View><MainText> 18% </MainText></View>
+          </TouchableHighlight>
+          <TouchableHighlight onPress={() => props.setPercentageTo(20)}>
+            <View><MainText> 20% </MainText></View>
+          </TouchableHighlight>
+          <TouchableHighlight onPress={() => props.setPercentageTo(25)}>
+            <View><MainText> 25% </MainText></View>
+          </TouchableHighlight>
+
+          <TouchableHighlight onPress={props.addPercentage}>
+            <View><HeadingText> + </HeadingText></View>
+          </TouchableHighlight>
+        </View>
       </View>
+
     );
 
 
@@ -60,6 +82,7 @@ const styles = StyleSheet.create({
   container: {
     flexWrap: 'wrap',
     alignItems: 'flex-start',
+    justifyContent: 'center',
     flexDirection:'row',
   },
   imgStyle: {
