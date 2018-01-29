@@ -14,9 +14,11 @@
 * toggle keypad
 * save user data
 * clean up the src files
+* tap/swipe to change tip rate
+
 
 ## DID:
-* tap/swipe to change tip rate
+* set up react-native-vector-icons
 
 
 ## TODO:

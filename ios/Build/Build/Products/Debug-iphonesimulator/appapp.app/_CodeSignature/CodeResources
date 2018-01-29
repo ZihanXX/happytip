@@ -8,6 +8,10 @@
 		<data>
 		ePiQOXpLo8nD/8Se1HOyScbFqLM=
 		</data>
+		<key>FontAwesome.ttf</key>
+		<data>
+		E7HqtlqYPHpzvHmXxHnWaUP3xss=
+		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
 		ooz0sIAaLKBGoFU5iKq8DR11NmY=
@@ -51,7 +55,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3bGK4kFtKsiwlpP2IRQS9eajflM=
+		XcA+Fnsxr3rhkTt7qkIpp2iQors=
+		</data>
+		<key>Ionicons.ttf</key>
+		<data>
+		D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -75,7 +83,7 @@
 		</data>
 		<key>PlugIns/appappTests.xctest/appappTests</key>
 		<data>
-		2fFtHlQzz3aVf1As/uJ1AjNCQDs=
+		7Vt8pDTrmDyZ0OAg7n8R1VTAz3U=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -89,6 +97,17 @@
 			<key>hash2</key>
 			<data>
 			a4zOvd/9fppVLokd7rDc52ojH3xf4aPFK4AymW60HR4=
+			</data>
+		</dict>
+		<key>FontAwesome.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E7HqtlqYPHpzvHmXxHnWaUP3xss=
+			</data>
+			<key>hash2</key>
+			<data>
+			qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -192,6 +211,17 @@
 			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
 			</data>
 		</dict>
+		<key>Ionicons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			u0dnmwuuuEgbf1HGitM65aUmc2y1CxcXzGD/a2X5CKM=
+			</data>
+		</dict>
 		<key>PlugIns/appappTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -240,11 +270,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2fFtHlQzz3aVf1As/uJ1AjNCQDs=
+			7Vt8pDTrmDyZ0OAg7n8R1VTAz3U=
 			</data>
 			<key>hash2</key>
 			<data>
-			KiO5NM+lU1GI3cFp8ITmoTt2DegNixcTVF3/k2sVF9o=
+			P1WX09IpyjVitpiPk4ko7SJf9Y9dYsG4e+3TkWPBc58=
 			</data>
 		</dict>
 	</dict>

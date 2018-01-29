@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableHighlight, TouchableOpacity, Image, Button } from 'react-native';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 
 const headingPanel = (props) => {
@@ -16,7 +17,7 @@ const headingPanel = (props) => {
       <View style={styles.menu}>
         <TouchableHighlight onPress={props.goToSettings}>
           <View>
-            <HeadingText style={styles.text}> # </HeadingText>
+            <Icon size={30} name='md-menu' color='white' />
           </View>
         </TouchableHighlight>
       </View>
@@ -37,10 +38,10 @@ const styles = StyleSheet.create({
     color: 'white'
   },
   menu: {
-    paddingLeft: 8
+    paddingRight: 8
   },
   percentage: {
-    paddingRight: 8
+    paddingLeft: 8
   }
 });
 

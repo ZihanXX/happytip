@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import Button from '../../components/UI/Button/Button';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 
 const keyPad = props => {
@@ -29,7 +30,7 @@ const keyPad = props => {
       <View style={styles.container}>
         <Button onPress={() => props.billPriceHandler('.')}>.</Button>
         <Button onPress={() => props.billPriceHandler('0')}>0</Button>
-        <Button onPress={() => props.billPriceHandler('del')}>DEL</Button>
+        <Button onPress={() => props.billPriceHandler('del')}><Icon size={25} name='ios-backspace'/></Button>
       </View>
 
       <Button

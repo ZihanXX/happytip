@@ -6,33 +6,35 @@ import BillPrice from '../ControlPanel/PriceLabels/BillPrice';
 import YouPay from '../ControlPanel/PriceLabels/YouPay';
 import SplitPrice from '../ControlPanel/PriceLabels/SplitPrice';
 import FriendSplit from '../ControlPanel/PriceLabels/FriendsSplit';
+import Icon from 'react-native-vector-icons/Ionicons';
+
 
 
 class ControlPanel extends React.Component {
 
   state = {
     splitBy: 1,
-    faces: ['o', '-', '-', '-', '-']
+    faces: [true, false, false, false, false]
   }
 
 
   splitByHandler = (splitBy) => {
-    var faces = ['o', 'o', 'o', 'o', 'o'];
+    var faces = [true, true, true, true, true];
     switch (splitBy) {
       case 1:
-        faces = ['o', '-', '-', '-', '-'];
+        faces = [true, false, false, false, false];
         break;
       case 2:
-        faces = ['o', 'o', '-', '-', '-'];
+        faces = [true, true, false, false, false];
         break;
       case 3:
-        faces = ['o', 'o', 'o', '-', '-'];
+        faces = [true, true, true, false, false];
         break;
       case 4:
-        faces = ['o', 'o', 'o', 'o', '-'];
+        faces = [true, true, true, true, false];
         break;
       case 5:
-        faces = ['o', 'o', 'o', 'o', 'o'];
+        faces = [true, true, true, true, true];
         break;
       default:
         break;

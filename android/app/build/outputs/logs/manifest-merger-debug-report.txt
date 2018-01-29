@@ -5,6 +5,7 @@ INJECTED from /Users/ZihanX/Developer/React/appapp/android/app/src/main/AndroidM
 INJECTED from /Users/ZihanX/Developer/React/appapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
 INJECTED from /Users/ZihanX/Developer/React/appapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
 MERGED from [:react-native-navigation] /Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-vector-icons] /Users/ZihanX/Developer/React/appapp/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.50.3] /Users/ZihanX/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/6be1a6d2d1b93ac77e1abf2c196d71e5/AndroidManifest.xml:2:1-15:12
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/ZihanX/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/28497fe8ffdac59b1b3517b29a2ad030/AndroidManifest.xml:2:1-14:12
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/ZihanX/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/884231bc51f22a3698afd7a5e4beab64/AndroidManifest.xml:2:1-13:12
@@ -63,6 +64,8 @@ INJECTED from /Users/ZihanX/Developer/React/appapp/android/app/src/main/AndroidM
 INJECTED from /Users/ZihanX/Developer/React/appapp/android/app/src/main/AndroidManifest.xml:9:5-11:41
 MERGED from [:react-native-navigation] /Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-navigation] /Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/ZihanX/Developer/React/appapp/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/ZihanX/Developer/React/appapp/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.50.3] /Users/ZihanX/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/6be1a6d2d1b93ac77e1abf2c196d71e5/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.50.3] /Users/ZihanX/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/6be1a6d2d1b93ac77e1abf2c196d71e5/AndroidManifest.xml:7:5-9:41
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/ZihanX/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/28497fe8ffdac59b1b3517b29a2ad030/AndroidManifest.xml:8:5-10:41

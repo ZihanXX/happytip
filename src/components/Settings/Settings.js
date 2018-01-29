@@ -1,7 +1,8 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button, Dimensions, TouchableHighlight} from 'react-native';
+import {View, Text, StyleSheet, Button, Dimensions, TouchableHighlight, TouchableWithoutFeedback} from 'react-native';
 import MainText from '../../components/UI/MainText/MainText';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 
 const settings = props => {
@@ -17,7 +18,10 @@ const settings = props => {
       <TouchableHighlight onPress={props.goToTaxRate}>
         <View style={styles.settingItem}>
           <MainText>Tax rate</MainText>
-          <MainText>{props.taxRate} > </MainText>
+          <View style={styles.settingItemInfo}>
+            <MainText>{props.taxRate}  </MainText>
+            <Icon size={25} name='ios-arrow-forward' color='gray'/>
+          </View>
         </View>
       </TouchableHighlight>
 
@@ -25,6 +29,7 @@ const settings = props => {
       <TouchableHighlight onPress={props.toggleTaxIncl}>
         <View style={styles.settingItem}>
           <MainText>Tax Included</MainText>
+
           {props.taxIncluded ?
             <MainText>yes</MainText> :
             <MainText>no</MainText>
@@ -36,7 +41,10 @@ const settings = props => {
       <TouchableHighlight onPress={props.goToConcurrency}>
         <View style={styles.settingItem}>
           <MainText>Concurrency</MainText>
-          <MainText>{props.concurrency} > </MainText>
+          <View style={styles.settingItemInfo}>
+            <MainText>{props.concurrency}  </MainText>
+            <Icon size={25} name='ios-arrow-forward' color='gray'/>
+          </View>
         </View>
       </TouchableHighlight>
 
@@ -46,7 +54,7 @@ const settings = props => {
       <TouchableHighlight onPress={() => {alert("go to app store")}}>
         <View style={styles.settingItem}>
           <MainText>Rate Me</MainText>
-          <MainText> > </MainText>
+          <Icon size={25} name='ios-arrow-forward' color='gray'/>
         </View>
       </TouchableHighlight>
 
@@ -54,7 +62,7 @@ const settings = props => {
       <TouchableHighlight onPress={props.goToTipMe}>
         <View style={styles.settingItem}>
           <MainText>Tip Me</MainText>
-          <MainText> > </MainText>
+          <Icon size={25} name='ios-arrow-forward' color='gray'/>
         </View>
       </TouchableHighlight>
 
@@ -75,6 +83,9 @@ styles = StyleSheet.create({
     margin: 10,
     flexDirection:'row',
     justifyContent: 'space-between',
+  },
+  settingItemInfo: {
+    flexDirection:'row',
   },
   header: {
     margin: 20

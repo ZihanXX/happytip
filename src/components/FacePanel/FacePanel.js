@@ -6,6 +6,7 @@ import Face3 from '../../assets/imgs/face3.png';
 import Face4 from '../../assets/imgs/face4.png';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 
 const facePanel = (props) => {
@@ -50,7 +51,7 @@ const facePanel = (props) => {
 
         <View style={styles.container}>
           <TouchableHighlight onPress={props.minusPercentage}>
-            <View><HeadingText> - </HeadingText></View>
+            <View><Icon size={25} name='md-remove' color='white' /></View>
           </TouchableHighlight>
 
           <TouchableHighlight onPress={() => props.setPercentageTo(15)}>
@@ -67,7 +68,7 @@ const facePanel = (props) => {
           </TouchableHighlight>
 
           <TouchableHighlight onPress={props.addPercentage}>
-            <View><HeadingText> + </HeadingText></View>
+            <View><Icon size={25} name='md-add' color='white' /></View>
           </TouchableHighlight>
         </View>
       </View>
