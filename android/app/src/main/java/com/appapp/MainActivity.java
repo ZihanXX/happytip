@@ -6,6 +6,8 @@ import com.reactnativenavigation.controllers.SplashActivity;
 
 
 public class MainActivity extends SplashActivity {
+    
+
 
     /**
      * Returns the name of the main component registered from JavaScript.

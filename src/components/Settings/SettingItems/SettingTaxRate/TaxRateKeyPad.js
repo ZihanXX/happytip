@@ -50,8 +50,7 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     alignItems: 'flex-start',
     justifyContent: 'center',
-    flexDirection:'row',
-    // alignItems: 'center',
+    flexDirection:'row'
   }
 });
 

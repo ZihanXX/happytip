@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableHighlight, TouchableOpacity, Image, Button, Dimensions } from 'react-native';
+import { StyleSheet, View, TouchableHighlight, Image, Dimensions } from 'react-native';
 import Face1 from '../../assets/imgs/face1.png';
 import Face2 from '../../assets/imgs/face2.png';
 import Face3 from '../../assets/imgs/face3.png';

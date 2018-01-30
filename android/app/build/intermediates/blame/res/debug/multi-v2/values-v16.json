@@ -4,13 +4,32 @@
             "outputFile": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/db22467a99140bd9ba34b01196260e7f/res/values-v16/values-v16.xml",
+                    "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/d11e322a0cb79a10444aa2793a03b812/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endColumns": "65",
                         "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/1e2d950ca086bd322ef3ba4b48ed0f34/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
                     }
                 }
             ]

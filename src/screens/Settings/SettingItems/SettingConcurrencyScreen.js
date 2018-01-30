@@ -37,12 +37,6 @@ class SettingConcurrencyScreen extends React.Component {
           </View>
         </TouchableHighlight>
 
-        {/*<TouchableHighlight onPress={() => this.props.setConcurrency('￥')}>*/}
-          {/*<View style={styles.item}>*/}
-            {/*<MainText>￥</MainText>*/}
-          {/*</View>*/}
-        {/*</TouchableHighlight>*/}
-
       </View>
     );
   }

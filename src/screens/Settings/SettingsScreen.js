@@ -4,7 +4,6 @@ import ThemeColors from '../../components/UI/Theme/ThemeColors';
 
 
 
-
 class SettingsScreen extends React.Component {
 
   state = {

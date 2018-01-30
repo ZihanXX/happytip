@@ -25,20 +25,28 @@
 * format control panel
 * format setting pages
 * set tax rate the first time using this app
+* keypad
+* tip me
 
 
 
 ## DID:
-* keypad
-* tip me
 * clean up unused vars and files
+* fix the percentage bug
+* final colors
+* app icon
+* splash screen
+* set up tax rate the first time
+* go back when click set tax rate
 
 
 
 ## For the further:
+* comment the code
 * improvise UI
 * custom fonts
 * share with friend
+* share the app with friend
 * rate me link
 * tip me link
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StatusBar, Linking, TouchableOpacity, StyleSheet, Dimensions} from 'react-native';
+import {View, StatusBar, Linking, TouchableOpacity, StyleSheet, Dimensions} from 'react-native';
 import MainText from '../../../components/UI/MainText/MainText';
 import HeadingText from '../../../components/UI/HeadingText/HeadingText';
 import ThemeColors from "../../../components/UI/Theme/ThemeColors";

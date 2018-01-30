@@ -1,8 +1,7 @@
 import React from 'react';
-import {StyleSheet, View, Button, TouchableWithoutFeedback, TouchableOpacity} from 'react-native';
+import {StyleSheet, View, TouchableWithoutFeedback} from 'react-native';
 import IconFontAwesome from 'react-native-vector-icons/FontAwesome';
 import ThemeColors from '../../UI/Theme/ThemeColors';
-
 
 
 const littlePerson = props => (

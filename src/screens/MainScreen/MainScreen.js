@@ -36,11 +36,26 @@ class MainScreen extends React.Component {
     AsyncStorage.getItem("tipPercentage").then((value) => {
       value !== null ? this.setState({tipPercentage: Number(value)}) : null;
     }).done();
-    AsyncStorage.getItem("taxRate").then((value) => {
-      value !== null ? this.setState({taxRate: value}) : this.goToTaxRateHandler();
-    }).done();
+    // AsyncStorage.getItem("taxRate").then((value) => {
+    //   value !== null ? this.setState({taxRate: value}) : this.goToTaxRateHandler();
+    // }).done();
   }
 
+
+  setPercentageToHandler = (tipPercentage) => {
+    this.setState({ tipPercentage: tipPercentage });
+    AsyncStorage.setItem('tipPercentage', String(tipPercentage));
+    const totalBill = this.state.totalBill;
+    const taxRate = this.state.taxRate;
+    const taxIncluded = this.state.taxIncluded;
+    const youPay = taxIncluded
+      ? totalBill * (1.00 + tipPercentage / 100.00)
+      : totalBill / (1.00 + taxRate / 100.00) * (1.00 + tipPercentage / 100.00);
+    const splitBy = this.state.splitBy;
+    const splitBill = youPay / splitBy;
+    this.setState({ youPay: youPay.toFixed(2) });
+    this.setState({ splitBill: splitBill.toFixed(2) });
+  }
 
   addPercentage = () => {
     const tipPercentage = this.state.tipPercentage < 100 ? this.state.tipPercentage : 100;
@@ -91,10 +106,16 @@ class MainScreen extends React.Component {
     this.refs.keyPadModal.close();
   }
 
+
   toggleTaxInclHandler = () => {
     const taxIncluded = !this.state.taxIncluded;
     this.setState({ taxIncluded: taxIncluded });
     AsyncStorage.setItem('taxIncluded', taxIncluded ? 'true' : 'false');
+    if (!taxIncluded) {
+      AsyncStorage.getItem("taxRate").then((value) => {
+        value !== null ? this.setState({taxRate: value}) : this.goToTaxRateHandler();
+      }).done();
+    }
     const totalBill = this.state.totalBill;
     const tipPercentage = this.state.tipPercentage;
     const taxRate = this.state.taxRate;
@@ -136,9 +157,11 @@ class MainScreen extends React.Component {
     });
   }
 
+
   setConcurrencyHandler = (concurrency) => {
     this.setState({ concurrency: concurrency });
     AsyncStorage.setItem('concurrency', concurrency);
+    this.props.navigator.pop({ animated: true });
   }
 
   setTaxRateHandler = (taxRate) => {
@@ -155,6 +178,7 @@ class MainScreen extends React.Component {
     this.setState({ splitBy: splitBy });
     this.setState({ youPay: youPay.toFixed(2) });
     this.setState({ splitBill: splitBill.toFixed(2) });
+    this.props.navigator.pop({ animated: true });
   }
 
   showKeyPadHandler = () => {
@@ -165,10 +189,6 @@ class MainScreen extends React.Component {
     this.props.navigator.push({
       screen: 'happy-tip.TipMeScreen',
     });
-  }
-
-  setPercentageToHandler = (tipPercentage) => {
-    this.setState({ tipPercentage: tipPercentage });
   }
 
   goToTaxRateHandler = () => {
@@ -249,7 +269,7 @@ const styles = StyleSheet.create({
   },
   headingPanelIOS: {
     backgroundColor: ThemeColors.theme,
-    height: 65,
+    height: 70,
     width: '100%',
     paddingTop: 20
   },
@@ -262,7 +282,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: ThemeColors.theme,
-    height: Dimensions.get('window').height * 0.5 - 65,
+    height: Dimensions.get('window').height * 0.5 - 70,
     width: '100%',
   },
   facePanelAndroid: {

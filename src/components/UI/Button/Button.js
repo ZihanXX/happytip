@@ -19,14 +19,16 @@ const button = props => (
 
 const styles = StyleSheet.create({
   buttonIOS: {
-    borderColor: '#eeeeff',
+    // borderColor: '#eeeeff',
+    borderColor: ThemeColors.buttonBorder,
     alignItems: 'center',
     borderWidth: 1,
     margin: 1,
     height: Dimensions.get('window').height * 0.07
   },
   buttonAndroid: {
-    borderColor: '#eeeeff',
+    // borderColor: '#eeeeff',
+    borderColor: ThemeColors.buttonBorder,
     alignItems: 'center',
     borderWidth: 1,
     margin: 1,

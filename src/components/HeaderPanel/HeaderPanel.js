@@ -1,7 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableHighlight, TouchableOpacity, Image, Button, StatusBar } from 'react-native';
+import { StyleSheet, View, TouchableHighlight } from 'react-native';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
-import MainText from '../../components/UI/MainText/MainText';
 import Icon from 'react-native-vector-icons/Ionicons';
 import ThemeColors from '../../components/UI/Theme/ThemeColors';
 
@@ -39,11 +38,12 @@ const styles = StyleSheet.create({
     paddingTop: 8
   },
   text: {
-    color: ThemeColors.textLight
+    color: ThemeColors.textLight,
+    paddingTop: 5
   },
   menu: {
     paddingRight: 15,
-    paddingTop: 5
+    paddingTop: 8
   },
   percentage: {
     paddingLeft: 10

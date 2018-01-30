@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, View, Button, TouchableWithoutFeedback, TouchableOpacity, Dimensions} from 'react-native';
+import {StyleSheet, View, TouchableOpacity, Dimensions} from 'react-native';
 import MainText from '../../../components/UI/MainText/MainText';
 import HeadingText from '../../../components/UI/HeadingText/HeadingText';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -46,9 +46,6 @@ const friendSplit = props => {
             <HeadingText style={{paddingLeft: 47}}> {props.splitBy} </HeadingText>
           </View>
 
-          {/*<View style={styles.num}>*/}
-            {/*<HeadingText> {props.splitBy} </HeadingText>*/}
-          {/*</View>*/}
 
           <TouchableOpacity onPress={() => props.splitByHandler(props.splitBy + 1)}>
             <Icon size={23} name='md-add' color={ThemeColors.textLightTheme} style={{paddingLeft: 3, paddingTop: 4}} />

@@ -4,7 +4,7 @@
             "outputFile": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/db22467a99140bd9ba34b01196260e7f/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/1e2d950ca086bd322ef3ba4b48ed0f34/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

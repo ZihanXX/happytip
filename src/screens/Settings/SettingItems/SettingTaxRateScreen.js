@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TouchableHighlight, StyleSheet, Dimensions } from 'react-native';
+import { View, StyleSheet, Dimensions } from 'react-native';
 import MainText from '../../../components/UI/MainText/MainText';
 import HeadingText from '../../../components/UI/HeadingText/HeadingText';
 import KeyPad from '../../../components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad';
@@ -8,13 +8,6 @@ import ThemeColors from "../../../components/UI/Theme/ThemeColors";
 
 
 class SettingTaxRateScreen extends React.Component {
-
-  // const locations = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'D.C.',
-  //   'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
-  //   'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana',
-  //   'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
-  //   'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas',
-  //   'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'];
 
   state = {
     taxRate: this.props.taxRate
@@ -49,12 +42,10 @@ class SettingTaxRateScreen extends React.Component {
           <HeadingText>{this.state.taxRate} % </HeadingText>
         </View>
 
-        <View style={styles.keyPad}>
-          <KeyPad
-            typeTaxRate={this.typeTaxRateHandler}
-            setTaxRate={() => this.props.setTaxRate(this.state.taxRate)}
-          />
-        </View>
+        <KeyPad
+          typeTaxRate={this.typeTaxRateHandler}
+          setTaxRate={() => this.props.setTaxRate(this.state.taxRate)}
+        />
 
       </View>
     );
@@ -73,11 +64,7 @@ const styles = StyleSheet.create({
   },
   item: {
     alignItems: 'center'
-  },
-  keyPad: {
-    //
   }
-
 });
 
 export default SettingTaxRateScreen;

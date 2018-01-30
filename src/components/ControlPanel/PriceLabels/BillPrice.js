@@ -1,5 +1,5 @@
 import React from 'react';
-import {Dimensions, StyleSheet, View, Text} from 'react-native';
+import {Dimensions, StyleSheet, View} from 'react-native';
 import MainText from '../../../components/UI/MainText/MainText';
 import HeadingText from '../../../components/UI/HeadingText/HeadingText';
 import ThemeColors from '../../UI/Theme/ThemeColors';

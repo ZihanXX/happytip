@@ -1,12 +1,9 @@
 import React from 'react';
-import {StyleSheet, Text, View, TouchableWithoutFeedback, TouchableOpacity, Button, Dimensions} from 'react-native';
-import TextHeading from '../../components/UI/HeadingText/HeadingText';
-import MainText from '../../components/UI/MainText/MainText';
+import {StyleSheet, View, TouchableOpacity, Dimensions} from 'react-native';
 import BillPrice from '../ControlPanel/PriceLabels/BillPrice';
 import YouPay from '../ControlPanel/PriceLabels/YouPay';
 import SplitPrice from '../ControlPanel/PriceLabels/SplitPrice';
 import FriendSplit from '../ControlPanel/PriceLabels/FriendsSplit';
-import Icon from 'react-native-vector-icons/Ionicons';
 
 
 

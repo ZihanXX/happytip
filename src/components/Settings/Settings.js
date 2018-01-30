@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button, Dimensions, TouchableHighlight, TouchableWithoutFeedback, StatusBar} from 'react-native';
+import {View, StyleSheet, Dimensions, TouchableHighlight, StatusBar} from 'react-native';
 import MainText from '../../components/UI/MainText/MainText';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import Icon from 'react-native-vector-icons/Ionicons';
