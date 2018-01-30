@@ -15,7 +15,7 @@ class MainScreen extends React.Component {
   state = {
     concurrency: '$',
     taxIncluded: true,
-    taxRate: 9.25,
+    taxRate: 0,
     tipPercentage: 15,
     totalBill: '',
     splitBy: 1,
@@ -35,6 +35,9 @@ class MainScreen extends React.Component {
     }).done();
     AsyncStorage.getItem("tipPercentage").then((value) => {
       value !== null ? this.setState({tipPercentage: Number(value)}) : null;
+    }).done();
+    AsyncStorage.getItem("taxRate").then((value) => {
+      value !== null ? this.setState({taxRate: value}) : this.goToTaxRateHandler();
     }).done();
   }
 
@@ -171,6 +174,16 @@ class MainScreen extends React.Component {
     this.setState({ tipPercentage: tipPercentage });
   }
 
+  goToTaxRateHandler = () => {
+    this.props.navigator.push({
+      screen: 'happy-tip.SettingTaxRateScreen',
+      passProps: {
+        taxRate: 0,
+        setTaxRate: this.setTaxRateHandler
+      }
+    });
+  }
+
 
   render () {
     return (
@@ -235,9 +248,6 @@ class MainScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: ThemeColors.backGround,
-    // alignItems: 'center',
-    // justifyContent: 'center',
-    // justifyContent: 'flex-start',
     height: Dimensions.get('window').height
   },
   headingPanelIOS: {
@@ -266,9 +276,6 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   controlPanel: {
-    // flexWrap: 'wrap',
-    // justifyContent: 'flex-end',
-    // flexDirection:'row',
     alignItems: 'center',
     backgroundColor: ThemeColors.backGround,
     height: '50%',

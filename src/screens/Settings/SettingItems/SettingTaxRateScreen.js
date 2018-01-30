@@ -41,12 +41,12 @@ class SettingTaxRateScreen extends React.Component {
     return (
       <View style={styles.container}>
 
-        <View>
-          <HeadingText>Your Tax Rate: </HeadingText>
+        <View style={styles.header}>
+          <MainText>Your Tax Rate: </MainText>
         </View>
 
         <View style={styles.item}>
-          <MainText>{this.state.taxRate} % </MainText>
+          <HeadingText>{this.state.taxRate} % </HeadingText>
         </View>
 
         <View style={styles.keyPad}>
@@ -55,7 +55,6 @@ class SettingTaxRateScreen extends React.Component {
             setTaxRate={() => this.props.setTaxRate(this.state.taxRate)}
           />
         </View>
-
 
       </View>
     );
@@ -68,8 +67,11 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'space-between',
   },
+  header: {
+    paddingTop: 30,
+    paddingLeft: Dimensions.get('window').width * 0.05
+  },
   item: {
-    margin: 10,
     alignItems: 'center'
   },
   keyPad: {

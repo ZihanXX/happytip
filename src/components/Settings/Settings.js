@@ -18,7 +18,7 @@ const settings = props => {
       <View style={styles.container}>
 
         <View style={styles.header}>
-          <HeadingText>This is the settings</HeadingText>
+          <HeadingText>Welcome</HeadingText>
         </View>
 
 
@@ -85,13 +85,15 @@ const settings = props => {
 
 styles = StyleSheet.create({
   container: {
-    paddingTop: 30,
     height: '100%',
-    width: Dimensions.get("window").width,
-    // backgroundColor: ThemeColors.backGround
+    width: '98%',
+    paddingTop: 30,
+    paddingLeft: Dimensions.get('window').width * 0.05
   },
   settingItem: {
-    margin: 10,
+    marginRight: 10,
+    marginTop: 10,
+    marginBottom: 10,
     flexDirection:'row',
     justifyContent: 'space-between',
   },
@@ -99,7 +101,7 @@ styles = StyleSheet.create({
     flexDirection:'row',
   },
   header: {
-    margin: 20
+    paddingBottom: 20
   }
 });
 

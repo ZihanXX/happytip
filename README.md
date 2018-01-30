@@ -22,16 +22,16 @@
 * responsive (ios & android)
 * format theme colors
 * default bill price
-
-
-
-## DID:
 * format control panel
 
 
 
-## TODO:
+## DID:
 * format setting pages
+* set tax rate the first time using this app
+
+
+## TODO:
 * keypad
 * improvise UI
 * custom fonts
