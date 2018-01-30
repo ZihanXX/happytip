@@ -38,7 +38,7 @@ const facePanel = (props) => {
                 <TouchableHighlight onPress={props.goToTipMe}>
                   <View>
                     <HeadingText style={{color: ThemeColors.keyRed}}>Dude, You Are Rich!</HeadingText>
-                    <MainText style={{color: ThemeColors.textLight}}>Consider Tipping This App?</MainText>
+                    <MainText style={{color: ThemeColors.textLight}}>Consider Supporting This App?</MainText>
                   </View>
                 </TouchableHighlight>
               </View>

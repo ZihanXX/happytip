@@ -25,7 +25,7 @@ const youPay = props => (
         <View style={styles.label}>
           {props.taxIncluded ?
             <Text style={{color: ThemeColors.textLightTheme}}>Tip After Tax</Text> :
-            <Text style={{color: ThemeColors.textLightTheme}}>Tip Before {props.taxRate}% Tax</Text>
+            <Text style={{color: ThemeColors.textLightTheme}}>Before {props.taxRate}% Tax</Text>
           }
         </View>
 
@@ -43,12 +43,12 @@ const styles = StyleSheet.create({
   price: {
     justifyContent: 'flex-start',
     flexDirection:'row',
-    width: Dimensions.get('window').width * 0.30
+    width: Dimensions.get('window').width * 0.40
   },
   label: {
     justifyContent: 'flex-end',
     flexDirection:'row',
-    width: Dimensions.get('window').width * 0.50
+    width: Dimensions.get('window').width * 0.40
   }
 });
 

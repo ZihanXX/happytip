@@ -23,17 +23,22 @@
 * format theme colors
 * default bill price
 * format control panel
-
-
-
-## DID:
 * format setting pages
 * set tax rate the first time using this app
 
 
-## TODO:
+
+## DID:
 * keypad
+* tip me
+* clean up unused vars and files
+
+
+
+## For the further:
 * improvise UI
 * custom fonts
 * share with friend
-* clean up unused vars and files
+* rate me link
+* tip me link
+

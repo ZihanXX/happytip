@@ -31,11 +31,12 @@ const keyPad = props => {
       <View style={styles.container}>
         <Button onPress={() => props.billPriceHandler('.')}>.</Button>
         <Button onPress={() => props.billPriceHandler('0')}>0</Button>
-        <Button onPress={() => props.billPriceHandler('del')}><Icon size={25} name='ios-backspace'/></Button>
+        <Button onPress={() => props.billPriceHandler('del')}><Icon size={23} name='ios-backspace'/></Button>
       </View>
 
       <Button
-        color={ThemeColors.keyRed}
+        backgroundColor={ThemeColors.keyRed}
+        color={ThemeColors.textLight}
         onPress={() => props.doTheCalculate(props.splitBy)}
       >DONE</Button>
 

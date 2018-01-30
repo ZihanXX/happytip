@@ -35,8 +35,10 @@ const keyBoard = props => {
       </View>
 
       <Button
-        color={ThemeColors.keyRed}
+        backgroundColor={ThemeColors.keyRed}
+        color={ThemeColors.textLight}
         onPress={props.setTaxRate}
+
       >Set Tax Rate</Button>
 
     </View>

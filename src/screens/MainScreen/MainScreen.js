@@ -164,9 +164,6 @@ class MainScreen extends React.Component {
   goToTipMeHandler = () => {
     this.props.navigator.push({
       screen: 'happy-tip.TipMeScreen',
-      // passProps: {
-      //   navigatorStyle: {navBarTextColor: ThemeColors.theme}
-      // }
     });
   }
 

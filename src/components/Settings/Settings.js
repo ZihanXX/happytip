@@ -59,20 +59,21 @@ const settings = props => {
         <View style={styles.settingItem}></View>
 
 
-        <TouchableHighlight onPress={() => {alert("go to app store")}}>
-          <View style={styles.settingItem}>
-            <MainText>Rate Me</MainText>
-            <Icon size={25} name='ios-arrow-forward' color={ThemeColors.themeLight}/>
-          </View>
-        </TouchableHighlight>
-
-
         <TouchableHighlight onPress={props.goToTipMe}>
           <View style={styles.settingItem}>
             <MainText>Tip Me</MainText>
             <Icon size={25} name='ios-arrow-forward' color={ThemeColors.themeLight}/>
           </View>
         </TouchableHighlight>
+
+
+        <TouchableHighlight onPress={() => {alert("Please go to app store to rate us. Thank you!")}}>
+          <View style={styles.settingItem}>
+            <MainText>Rate Me</MainText>
+            <Icon size={25} name='ios-arrow-forward' color={ThemeColors.themeLight}/>
+          </View>
+        </TouchableHighlight>
+
 
       </View>
 
