@@ -34,16 +34,16 @@ const facePanel = (props) => {
         <View style={styles.container}>
           {
             faceSource == 'YOU ARE RICH' ?
-              <View>
+              <View style={styles.imgContainer}>
                 <TouchableHighlight onPress={props.goToTipMe}>
                   <View>
-                    <HeadingText style={{color: ThemeColors.keyRed}}>Dude, You are rich!</HeadingText>
-                    <MainText style={{color: ThemeColors.textLight}}>Consider tipping this app?</MainText>
+                    <HeadingText style={{color: ThemeColors.keyRed}}>Dude, You Are Rich!</HeadingText>
+                    <MainText style={{color: ThemeColors.textLight}}>Consider Tipping This App?</MainText>
                   </View>
                 </TouchableHighlight>
               </View>
               :
-              <View>
+              <View style={styles.imgContainer}>
                 <Image source={faceSource} style={styles.imgStyle}/>
               </View>
           }
@@ -52,7 +52,7 @@ const facePanel = (props) => {
 
         <View style={styles.container}>
           <TouchableHighlight onPress={props.minusPercentage}>
-            <View style={styles.icon}><Icon size={25} name='md-remove' color={ThemeColors.textLightTheme} /></View>
+            <View style={styles.icon}><Icon size={23} name='md-remove' color={ThemeColors.textLightTheme} /></View>
           </TouchableHighlight>
 
           <TouchableHighlight onPress={() => props.setPercentageTo(15)}>
@@ -69,7 +69,7 @@ const facePanel = (props) => {
           </TouchableHighlight>
 
           <TouchableHighlight onPress={props.addPercentage}>
-            <View style={styles.icon}><Icon size={25} name='md-add' color={ThemeColors.textLightTheme} /></View>
+            <View style={styles.icon}><Icon size={23} name='md-add' color={ThemeColors.textLightTheme} /></View>
           </TouchableHighlight>
         </View>
       </View>
@@ -88,13 +88,21 @@ const styles = StyleSheet.create({
     flexDirection:'row',
     paddingTop: 10
   },
+  imgContainer: {
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection:'row',
+    height: (Dimensions.get('window').height * 0.5 - 65) * 0.65
+  },
   imgStyle: {
     height: (Dimensions.get('window').height * 0.5 - 65) * 0.65,
     width: (Dimensions.get('window').height * 0.5 - 65) * 0.65
   },
   icon: {
     paddingLeft: 10,
-    paddingRight: 10
+    paddingRight: 10,
+    paddingTop: 1
   }
 });
 

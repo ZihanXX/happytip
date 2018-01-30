@@ -1,43 +1,65 @@
 import React from 'react';
-import {StyleSheet, View, Button, TouchableWithoutFeedback, TouchableOpacity} from 'react-native';
+import {StyleSheet, View, Button, TouchableWithoutFeedback, TouchableOpacity, Dimensions} from 'react-native';
 import MainText from '../../../components/UI/MainText/MainText';
 import HeadingText from '../../../components/UI/HeadingText/HeadingText';
 import Icon from 'react-native-vector-icons/Ionicons';
-import IconFontAwesome from 'react-native-vector-icons/FontAwesome';
 import ThemeColors from '../../UI/Theme/ThemeColors';
+import LittlePerson from '../../UI/LittlePerson/LittlePerson';
 
 
 const friendSplit = props => {
   if (props.splitBy <= 5) {
     return (
       <View style={styles.pricesContainer}>
-        {props.faces[0] ?
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(1)}><IconFontAwesome size={25} name="user" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback> :
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(1)}><IconFontAwesome size={25} name="user-o" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback>}
-        {props.faces[1] ?
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(2)}><IconFontAwesome size={25} name="user" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback> :
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(2)}><IconFontAwesome size={25} name="user-o" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback>}
-        {props.faces[2] ?
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(3)}><IconFontAwesome size={25} name="user" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback> :
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(3)}><IconFontAwesome size={25} name="user-o" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback>}
-        {props.faces[3] ?
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(4)}><IconFontAwesome size={25} name="user" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback> :
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(4)}><IconFontAwesome size={25} name="user-o" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback>}
-        {props.faces[4] ?
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(5)}><IconFontAwesome size={25} name="user" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback> :
-          <TouchableWithoutFeedback onPress={() => props.splitByHandler(5)}><IconFontAwesome size={25} name="user-o" color={ThemeColors.textLightTheme} /></TouchableWithoutFeedback>}
 
-        <TouchableOpacity onPress={() => props.splitByHandler(props.splitBy + 1)}><Icon size={25} name='md-add' color={ThemeColors.textLightTheme} /></TouchableOpacity>
-        <MainText> Friends Split </MainText>
+        <View style={styles.people}>
+          <View style={styles.icons}>
+            <LittlePerson idx={1} faces={props.faces} splitByHandler={props.splitByHandler} size={25}/>
+            <LittlePerson idx={2} faces={props.faces} splitByHandler={props.splitByHandler} size={25}/>
+            <LittlePerson idx={3} faces={props.faces} splitByHandler={props.splitByHandler} size={25}/>
+            <LittlePerson idx={4} faces={props.faces} splitByHandler={props.splitByHandler} size={25}/>
+            <LittlePerson idx={5} faces={props.faces} splitByHandler={props.splitByHandler} size={25}/>
+          </View>
+
+          <View style={styles.add}>
+            <TouchableOpacity onPress={() => props.splitByHandler(props.splitBy + 1)}>
+              <Icon size={23} name='md-add' color={ThemeColors.textLightTheme} style={{paddingRight: 3, paddingTop: 4}} />
+            </TouchableOpacity>
+          </View>
+        </View>
+
+        <View style={styles.label}>
+          <MainText> Friends </MainText>
+        </View>
+
       </View>
     );
   } else {
     return (
       <View style={styles.pricesContainer}>
-        <TouchableOpacity onPress={() => props.splitByHandler(props.splitBy - 1)}><Icon size={25} name='md-remove' color={ThemeColors.textLightTheme} /></TouchableOpacity>
-        <HeadingText> {props.splitBy} </HeadingText>
-        <TouchableOpacity onPress={() => props.splitByHandler(props.splitBy + 1)}><Icon size={25} name='md-add' color={ThemeColors.textLightTheme} /></TouchableOpacity>
-        <MainText> Friends Split </MainText>
+
+        <View style={styles.people}>
+          <View style={styles.icons}>
+            <TouchableOpacity onPress={() => props.splitByHandler(props.splitBy - 1)}>
+              <Icon size={23} name='md-remove' color={ThemeColors.textLightTheme} style={{paddingRight: 3, paddingTop: 4}} />
+            </TouchableOpacity>
+            <HeadingText style={{paddingLeft: 47}}> {props.splitBy} </HeadingText>
+          </View>
+
+          {/*<View style={styles.num}>*/}
+            {/*<HeadingText> {props.splitBy} </HeadingText>*/}
+          {/*</View>*/}
+
+          <TouchableOpacity onPress={() => props.splitByHandler(props.splitBy + 1)}>
+            <Icon size={23} name='md-add' color={ThemeColors.textLightTheme} style={{paddingLeft: 3, paddingTop: 4}} />
+          </TouchableOpacity>
+        </View>
+
+
+        <View style={styles.label}>
+          <MainText> Friends </MainText>
+        </View>
+
       </View>
     );
   }
@@ -47,12 +69,25 @@ const friendSplit = props => {
 
 const styles = StyleSheet.create({
   pricesContainer: {
-    flexWrap: 'wrap',
-    alignItems: 'flex-start',
-    // justifyContent: 'space-between',
+    flexDirection:'row'
+  },
+  people: {
+    justifyContent: 'center',
     flexDirection:'row',
+    width: Dimensions.get('window').width * 0.50
+  },
+  label: {
+    justifyContent: 'flex-end',
+    flexDirection:'row',
+    width: Dimensions.get('window').width * 0.30
+  },
+  icons: {
+    justifyContent: 'flex-start',
+    flexDirection:'row',
+    width: 138
   }
 });
+
 
 
 export default friendSplit;

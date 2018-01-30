@@ -88,7 +88,7 @@ styles = StyleSheet.create({
     paddingTop: 30,
     height: '100%',
     width: Dimensions.get("window").width,
-    backgroundColor: ThemeColors.backGround
+    // backgroundColor: ThemeColors.backGround
   },
   settingItem: {
     margin: 10,

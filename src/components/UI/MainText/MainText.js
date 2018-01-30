@@ -8,7 +8,7 @@ const mainText = props => (
 
 const styles = StyleSheet.create({
   mainText: {
-    fontSize: 20,
+    fontSize: 18,
     color: ThemeColors.textDark
   }
 });

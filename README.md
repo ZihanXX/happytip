@@ -16,9 +16,6 @@
 * clean up the src files
 * tap/swipe to change tip rate
 * set up react-native-vector-icons
-
-
-## DID:
 * toggle button
 * disable rotation
 * status bar color
@@ -27,7 +24,15 @@
 * default bill price
 
 
+
+## DID:
+* format control panel
+
+
+
 ## TODO:
+* format setting pages
+* keypad
 * improvise UI
 * custom fonts
 * share with friend

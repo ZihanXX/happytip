@@ -128,10 +128,7 @@ class MainScreen extends React.Component {
         concurrency: this.state.concurrency,
         setConcurrency: this.setConcurrencyHandler,
         setTaxRate: this.setTaxRateHandler,
-        navigatorStyle: {navBarTextColor: '#292961'},
-        navigatorButtons: {navBarTextColor: '#292961'},
-        // backButtonTitle: 'hhh',
-        // title: 'sdd'
+        // navigatorStyle: {navBarTextColor: ThemeColors.theme}
       }
     });
   }
@@ -164,6 +161,9 @@ class MainScreen extends React.Component {
   goToTipMeHandler = () => {
     this.props.navigator.push({
       screen: 'happy-tip.TipMeScreen',
+      // passProps: {
+      //   navigatorStyle: {navBarTextColor: ThemeColors.theme}
+      // }
     });
   }
 
@@ -235,9 +235,9 @@ class MainScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: ThemeColors.backGround,
-    alignItems: 'center',
-    justifyContent: 'center',
-    justifyContent: 'flex-start',
+    // alignItems: 'center',
+    // justifyContent: 'center',
+    // justifyContent: 'flex-start',
     height: Dimensions.get('window').height
   },
   headingPanelIOS: {
@@ -266,6 +266,9 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   controlPanel: {
+    // flexWrap: 'wrap',
+    // justifyContent: 'flex-end',
+    // flexDirection:'row',
     alignItems: 'center',
     backgroundColor: ThemeColors.backGround,
     height: '50%',

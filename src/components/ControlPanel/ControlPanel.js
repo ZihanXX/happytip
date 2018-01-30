@@ -50,7 +50,7 @@ class ControlPanel extends React.Component {
     return (
       <View style={styles.container}>
 
-        <View style={styles.priceLabels}>
+        <View style={styles.pricesContainer1}>
           <TouchableOpacity onPress={this.props.showKeyPad}>
             <BillPrice
               totalBill={this.props.totalBill}
@@ -60,7 +60,7 @@ class ControlPanel extends React.Component {
         </View>
 
 
-        <View style={styles.priceLabels}>
+        <View style={styles.pricesContainer2}>
           <YouPay
             youPay={this.props.youPay}
             toggleTaxInclHandler={this.props.toggleTaxInclHandler}
@@ -72,7 +72,7 @@ class ControlPanel extends React.Component {
         </View>
 
 
-        <View style={styles.priceLabels}>
+        <View style={styles.pricesContainer3}>
           <FriendSplit
             splitBy={this.state.splitBy}
             faces={this.state.faces}
@@ -81,7 +81,7 @@ class ControlPanel extends React.Component {
         </View>
 
 
-        <View style={styles.priceLabels}>
+        <View style={styles.pricesContainer4}>
           <SplitPrice
             splitBill={this.props.splitBill}
             concurrency={this.props.concurrency}
@@ -98,10 +98,20 @@ class ControlPanel extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: Dimensions.get('window').height * 0.06
+    paddingTop: Dimensions.get('window').height * 0.06,
+    width: Dimensions.get('window').width * 0.80
   },
-  priceLabels: {
+  pricesContainer1: {
     height: Dimensions.get('window').height * 0.09
+  },
+  pricesContainer2: {
+    height: Dimensions.get('window').height * 0.10
+  },
+  pricesContainer3: {
+    height: Dimensions.get('window').height * 0.09
+  },
+  pricesContainer4: {
+    height: Dimensions.get('window').height * 0.08
   }
 });
 

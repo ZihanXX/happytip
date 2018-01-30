@@ -3,6 +3,7 @@ import { View, Text, TouchableHighlight, StyleSheet, Dimensions } from 'react-na
 import MainText from '../../../components/UI/MainText/MainText';
 import HeadingText from '../../../components/UI/HeadingText/HeadingText';
 import KeyPad from '../../../components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad';
+import ThemeColors from "../../../components/UI/Theme/ThemeColors";
 
 
 
@@ -31,6 +32,12 @@ class SettingTaxRateScreen extends React.Component {
 
 
   render () {
+
+    this.props.navigator.setStyle({
+      navBarButtonColor: ThemeColors.theme
+    });
+
+
     return (
       <View style={styles.container}>
 

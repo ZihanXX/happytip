@@ -2,11 +2,17 @@ import React from 'react';
 import { View, Text, TouchableHighlight, StyleSheet } from 'react-native';
 import MainText from '../../../components/UI/MainText/MainText';
 import HeadingText from '../../../components/UI/HeadingText/HeadingText';
+import ThemeColors from "../../../components/UI/Theme/ThemeColors";
 
 
 class SettingConcurrencyScreen extends React.Component {
 
   render () {
+
+    this.props.navigator.setStyle({
+      navBarButtonColor: ThemeColors.theme
+    });
+
     return (
       <View>
         <View>

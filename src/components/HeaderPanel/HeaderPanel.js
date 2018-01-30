@@ -36,17 +36,17 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection:'row',
     justifyContent: 'space-between',
-    paddingTop: 5
+    paddingTop: 8
   },
   text: {
     color: ThemeColors.textLight
   },
   menu: {
-    paddingRight: 10,
-    paddingTop: 3
+    paddingRight: 15,
+    paddingTop: 5
   },
   percentage: {
-    paddingLeft: 8
+    paddingLeft: 10
   }
 });
 
