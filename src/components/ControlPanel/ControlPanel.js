@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableOpacity, Button } from 'react-native';
+import {StyleSheet, Text, View, TouchableWithoutFeedback, TouchableOpacity, Button, Dimensions} from 'react-native';
 import TextHeading from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
 import BillPrice from '../ControlPanel/PriceLabels/BillPrice';
@@ -48,37 +48,45 @@ class ControlPanel extends React.Component {
   render () {
 
     return (
-      <View>
+      <View style={styles.container}>
 
-        <TouchableOpacity onPress={this.props.showKeyPad}>
-          <BillPrice
-            totalBill={this.props.totalBill}
+        <View style={styles.priceLabels}>
+          <TouchableOpacity onPress={this.props.showKeyPad}>
+            <BillPrice
+              totalBill={this.props.totalBill}
+              concurrency={this.props.concurrency}
+            />
+          </TouchableOpacity>
+        </View>
+
+
+        <View style={styles.priceLabels}>
+          <YouPay
+            youPay={this.props.youPay}
+            toggleTaxInclHandler={this.props.toggleTaxInclHandler}
+            splitBy={this.state.splitBy}
+            taxIncluded={this.props.taxIncluded}
+            taxRate={this.props.taxRate}
             concurrency={this.props.concurrency}
           />
-        </TouchableOpacity>
+        </View>
 
 
-        <YouPay
-          youPay={this.props.youPay}
-          toggleTaxInclHandler={this.props.toggleTaxInclHandler}
-          splitBy={this.state.splitBy}
-          taxIncluded={this.props.taxIncluded}
-          taxRate={this.props.taxRate}
-          concurrency={this.props.concurrency}
-        />
+        <View style={styles.priceLabels}>
+          <FriendSplit
+            splitBy={this.state.splitBy}
+            faces={this.state.faces}
+            splitByHandler={this.splitByHandler}
+          />
+        </View>
 
 
-        <FriendSplit
-          splitBy={this.state.splitBy}
-          faces={this.state.faces}
-          splitByHandler={this.splitByHandler}
-        />
-
-
-        <SplitPrice
-          splitBill={this.props.splitBill}
-          concurrency={this.props.concurrency}
-        />
+        <View style={styles.priceLabels}>
+          <SplitPrice
+            splitBill={this.props.splitBill}
+            concurrency={this.props.concurrency}
+          />
+        </View>
 
 
       </View>
@@ -88,13 +96,14 @@ class ControlPanel extends React.Component {
 }
 
 
-// const styles = StyleSheet.create({
-//   pricesContainer: {
-//     flexWrap: 'wrap',
-//     alignItems: 'flex-start',
-//     flexDirection:'row',
-//   }
-// });
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: Dimensions.get('window').height * 0.06
+  },
+  priceLabels: {
+    height: Dimensions.get('window').height * 0.09
+  }
+});
 
 
 

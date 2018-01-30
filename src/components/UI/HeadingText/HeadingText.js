@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text, StyleSheet} from 'react-native';
+import ThemeColors from '../../UI/Theme/ThemeColors';
 
 const headingText = props => (
   <Text {...props} style={[styles.textHeading, props.style]}>{props.children}</Text>
@@ -8,7 +9,8 @@ const headingText = props => (
 const styles = StyleSheet.create({
   textHeading: {
     fontSize: 28,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: ThemeColors.theme
   }
 });
 

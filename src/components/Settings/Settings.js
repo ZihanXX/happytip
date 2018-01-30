@@ -1,73 +1,84 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button, Dimensions, TouchableHighlight, TouchableWithoutFeedback} from 'react-native';
+import {View, Text, StyleSheet, Button, Dimensions, TouchableHighlight, TouchableWithoutFeedback, StatusBar} from 'react-native';
 import MainText from '../../components/UI/MainText/MainText';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import Icon from 'react-native-vector-icons/Ionicons';
+import ToggleSwitch from 'toggle-switch-react-native';
+import ThemeColors from '../../components/UI/Theme/ThemeColors';
+
 
 
 const settings = props => {
 
   return (
-    <View style={styles.container}>
 
-      <View style={styles.header}>
-        <HeadingText>This is the settings</HeadingText>
+    <View>
+      <StatusBar hidden={false} barStyle="dark-content" />
+
+      <View style={styles.container}>
+
+        <View style={styles.header}>
+          <HeadingText>This is the settings</HeadingText>
+        </View>
+
+
+        <TouchableHighlight onPress={props.goToTaxRate}>
+          <View style={styles.settingItem}>
+            <MainText>Tax rate</MainText>
+            <View style={styles.settingItemInfo}>
+              <MainText>{props.taxRate}  </MainText>
+              <Icon size={25} name='ios-arrow-forward' color={ThemeColors.themeLight}/>
+            </View>
+          </View>
+        </TouchableHighlight>
+
+
+        <View style={styles.settingItem}>
+          <MainText>Pay before tax</MainText>
+          <View>
+            <ToggleSwitch
+              isOn={props.taxIncluded ? false : true}
+              onColor={ThemeColors.themeLight}
+              onToggle={props.toggleTaxIncl}
+            />
+          </View>
+        </View>
+
+
+        <TouchableHighlight onPress={props.goToConcurrency}>
+          <View style={styles.settingItem}>
+            <MainText>Concurrency</MainText>
+            <View style={styles.settingItemInfo}>
+              <MainText>{props.concurrency}  </MainText>
+              <Icon size={25} name='ios-arrow-forward' color={ThemeColors.themeLight}/>
+            </View>
+          </View>
+        </TouchableHighlight>
+
+
+        <View style={styles.settingItem}></View>
+
+
+        <TouchableHighlight onPress={() => {alert("go to app store")}}>
+          <View style={styles.settingItem}>
+            <MainText>Rate Me</MainText>
+            <Icon size={25} name='ios-arrow-forward' color={ThemeColors.themeLight}/>
+          </View>
+        </TouchableHighlight>
+
+
+        <TouchableHighlight onPress={props.goToTipMe}>
+          <View style={styles.settingItem}>
+            <MainText>Tip Me</MainText>
+            <Icon size={25} name='ios-arrow-forward' color={ThemeColors.themeLight}/>
+          </View>
+        </TouchableHighlight>
+
       </View>
 
 
-      <TouchableHighlight onPress={props.goToTaxRate}>
-        <View style={styles.settingItem}>
-          <MainText>Tax rate</MainText>
-          <View style={styles.settingItemInfo}>
-            <MainText>{props.taxRate}  </MainText>
-            <Icon size={25} name='ios-arrow-forward' color='gray'/>
-          </View>
-        </View>
-      </TouchableHighlight>
-
-
-      <TouchableHighlight onPress={props.toggleTaxIncl}>
-        <View style={styles.settingItem}>
-          <MainText>Tax Included</MainText>
-
-          {props.taxIncluded ?
-            <MainText>yes</MainText> :
-            <MainText>no</MainText>
-          }
-        </View>
-      </TouchableHighlight>
-
-
-      <TouchableHighlight onPress={props.goToConcurrency}>
-        <View style={styles.settingItem}>
-          <MainText>Concurrency</MainText>
-          <View style={styles.settingItemInfo}>
-            <MainText>{props.concurrency}  </MainText>
-            <Icon size={25} name='ios-arrow-forward' color='gray'/>
-          </View>
-        </View>
-      </TouchableHighlight>
-
-
-      <View style={styles.settingItem}></View>
-
-      <TouchableHighlight onPress={() => {alert("go to app store")}}>
-        <View style={styles.settingItem}>
-          <MainText>Rate Me</MainText>
-          <Icon size={25} name='ios-arrow-forward' color='gray'/>
-        </View>
-      </TouchableHighlight>
-
-
-      <TouchableHighlight onPress={props.goToTipMe}>
-        <View style={styles.settingItem}>
-          <MainText>Tip Me</MainText>
-          <Icon size={25} name='ios-arrow-forward' color='gray'/>
-        </View>
-      </TouchableHighlight>
-
-
     </View>
+
   );
 }
 
@@ -77,7 +88,7 @@ styles = StyleSheet.create({
     paddingTop: 30,
     height: '100%',
     width: Dimensions.get("window").width,
-    backgroundColor: 'white'
+    backgroundColor: ThemeColors.backGround
   },
   settingItem: {
     margin: 10,

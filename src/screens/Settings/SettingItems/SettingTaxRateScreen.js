@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TouchableHighlight, StyleSheet } from 'react-native';
+import { View, Text, TouchableHighlight, StyleSheet, Dimensions } from 'react-native';
 import MainText from '../../../components/UI/MainText/MainText';
 import HeadingText from '../../../components/UI/HeadingText/HeadingText';
 import KeyPad from '../../../components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad';
@@ -32,7 +32,7 @@ class SettingTaxRateScreen extends React.Component {
 
   render () {
     return (
-      <View>
+      <View style={styles.container}>
 
         <View>
           <HeadingText>Your Tax Rate: </HeadingText>
@@ -42,10 +42,13 @@ class SettingTaxRateScreen extends React.Component {
           <MainText>{this.state.taxRate} % </MainText>
         </View>
 
-        <KeyPad
-          typeTaxRate={this.typeTaxRateHandler}
-          setTaxRate={() => this.props.setTaxRate(this.state.taxRate)}
-        />
+        <View style={styles.keyPad}>
+          <KeyPad
+            typeTaxRate={this.typeTaxRateHandler}
+            setTaxRate={() => this.props.setTaxRate(this.state.taxRate)}
+          />
+        </View>
+
 
       </View>
     );
@@ -53,10 +56,19 @@ class SettingTaxRateScreen extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+  },
   item: {
     margin: 10,
     alignItems: 'center'
+  },
+  keyPad: {
+    //
   }
+
 });
 
 export default SettingTaxRateScreen;

@@ -1,5 +1,8 @@
 import React from 'react';
 import Settings from '../../components/Settings/Settings';
+import ThemeColors from '../../components/UI/Theme/ThemeColors';
+
+
 
 
 class SettingsScreen extends React.Component {
@@ -52,7 +55,14 @@ class SettingsScreen extends React.Component {
     });
   }
 
+
+
   render () {
+
+    this.props.navigator.setStyle({
+      navBarButtonColor: ThemeColors.theme
+    });
+
     return (
       <Settings
         goToTaxRate={this.goToTaxRateHandler}

@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyleSheet, View, Dimensions, AsyncStorage } from 'react-native';
+import { StyleSheet, View, Dimensions, AsyncStorage, StatusBar, Platform } from 'react-native';
 import ControlPanel from '../../components/ControlPanel/ControlPanel';
 import FacePanel from '../../components/FacePanel/FacePanel';
 import HeadingPanel from '../../components/HeaderPanel/HeaderPanel';
 import KeyPad from '../../components/KeyPad/KeyPad';
 import Modal from 'react-native-modalbox';
-
+import ThemeColors from '../../components/UI/Theme/ThemeColors';
 
 
 
@@ -127,7 +127,11 @@ class MainScreen extends React.Component {
         toggleTaxIncl: this.toggleTaxInclHandler,
         concurrency: this.state.concurrency,
         setConcurrency: this.setConcurrencyHandler,
-        setTaxRate: this.setTaxRateHandler
+        setTaxRate: this.setTaxRateHandler,
+        navigatorStyle: {navBarTextColor: '#292961'},
+        navigatorButtons: {navBarTextColor: '#292961'},
+        // backButtonTitle: 'hhh',
+        // title: 'sdd'
       }
     });
   }
@@ -170,49 +174,57 @@ class MainScreen extends React.Component {
 
   render () {
     return (
-      <View style={styles.container}>
 
-        <View style={styles.headingPanel}>
-          <HeadingPanel
-            tipPercentage={this.state.tipPercentage}
-            goToSettings={this.goToSettingsHandler}
-          />
+      <View>
+        <StatusBar hidden={false} barStyle="light-content" />
+
+
+        <View style={styles.container}>
+
+          <View style={Platform.OS == 'ios' ? styles.headingPanelIOS : styles.headingPanelAndroid}>
+            <HeadingPanel
+              tipPercentage={this.state.tipPercentage}
+              goToSettings={this.goToSettingsHandler}
+            />
+          </View>
+
+          <View style={Platform.OS == 'ios' ? styles.facePanelIOS : styles.facePanelAndroid} >
+            <FacePanel
+              tipPercentage={this.state.tipPercentage}
+              addPercentage={this.addPercentage}
+              minusPercentage={this.minusPercentage}
+              goToTipMe={this.goToTipMeHandler}
+              setPercentageTo={this.setPercentageToHandler}
+            />
+          </View>
+
+          <View style={styles.controlPanel} >
+            <ControlPanel
+              taxIncluded={this.state.taxIncluded}
+              taxRate={this.state.taxRate}
+              tipPercentage={this.state.tipPercentage}
+              toggleTaxInclHandler={this.toggleTaxInclHandler}
+              doTheCalculate={this.doTheCalculate}
+              totalBill={this.state.totalBill}
+              youPay={this.state.youPay}
+              splitBill={this.state.splitBill}
+              concurrency={this.state.concurrency}
+              showKeyPad={this.showKeyPadHandler}
+            />
+          </View>
+
+          <Modal style={styles.keyPadModal} backdrop={false}  position={"bottom"} ref={"keyPadModal"}>
+            <KeyPad
+              doTheCalculate={this.doTheCalculate}
+              splitBy={this.state.splitBy}
+              billPriceHandler={this.billPriceHandler}
+            />
+          </Modal>
+
         </View>
-
-        <View style={styles.facePanel} >
-          <FacePanel
-            tipPercentage={this.state.tipPercentage}
-            addPercentage={this.addPercentage}
-            minusPercentage={this.minusPercentage}
-            goToTipMe={this.goToTipMeHandler}
-            setPercentageTo={this.setPercentageToHandler}
-          />
-        </View>
-
-        <View style={styles.controlPanel} >
-          <ControlPanel
-            taxIncluded={this.state.taxIncluded}
-            taxRate={this.state.taxRate}
-            tipPercentage={this.state.tipPercentage}
-            toggleTaxInclHandler={this.toggleTaxInclHandler}
-            doTheCalculate={this.doTheCalculate}
-            totalBill={this.state.totalBill}
-            youPay={this.state.youPay}
-            splitBill={this.state.splitBill}
-            concurrency={this.state.concurrency}
-            showKeyPad={this.showKeyPadHandler}
-          />
-        </View>
-
-        <Modal style={styles.keyPadModal} backdrop={false}  position={"bottom"} ref={"keyPadModal"}>
-          <KeyPad
-            doTheCalculate={this.doTheCalculate}
-            splitBy={this.state.splitBy}
-            billPriceHandler={this.billPriceHandler}
-          />
-        </Modal>
-
       </View>
+
+
     );
   }
 
@@ -222,41 +234,47 @@ class MainScreen extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1, //doesn't work for android
-    backgroundColor: '#fff',
+    backgroundColor: ThemeColors.backGround,
     alignItems: 'center',
     justifyContent: 'center',
     justifyContent: 'flex-start',
-    paddingTop: 20,
-    height: '100%'
+    height: Dimensions.get('window').height
   },
-  headingPanel: {
-    // alignItems: 'center',
-    // justifyContent: 'center',
-    backgroundColor: '#412061',
+  headingPanelIOS: {
+    backgroundColor: ThemeColors.theme,
+    height: 65,
+    width: '100%',
+    paddingTop: 20
+  },
+  headingPanelAndroid: {
+    backgroundColor: ThemeColors.theme,
     height: 45,
     width: '100%'
   },
-  facePanel: {
+  facePanelIOS: {
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#292961',
-    height: '40%',
+    backgroundColor: ThemeColors.theme,
+    height: Dimensions.get('window').height * 0.5 - 65,
     width: '100%',
-    // paddingTop: 45
+  },
+  facePanelAndroid: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: ThemeColors.theme,
+    height: Dimensions.get('window').height * 0.5 - 45,
+    width: '100%',
   },
   controlPanel: {
     alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#eeeeee',
-    height: '30%',
+    backgroundColor: ThemeColors.backGround,
+    height: '50%',
     width: '100%'
   },
   keyPadModal: {
     alignItems: 'center',
-    justifyContent: 'center',
     backgroundColor: 'white',
-    height: Dimensions.get('window').height * 0.4,
+    height: Dimensions.get('window').height * 0.37,
     width: '100%'
   },
 });

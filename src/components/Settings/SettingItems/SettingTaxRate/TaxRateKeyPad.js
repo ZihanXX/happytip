@@ -2,6 +2,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import Button from '../../../UI/Button/Button';
 import Icon from 'react-native-vector-icons/Ionicons';
+import ThemeColors from '../../../../components/UI/Theme/ThemeColors';
 
 
 const keyBoard = props => {
@@ -34,7 +35,7 @@ const keyBoard = props => {
       </View>
 
       <Button
-        color='#e45c69'
+        color={ThemeColors.keyRed}
         onPress={props.setTaxRate}
       >Set Tax Rate</Button>
 

@@ -55,11 +55,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XcA+Fnsxr3rhkTt7qkIpp2iQors=
+		zCq6pJUy8fJ2xVFpsRHrbM/qxT8=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
 		D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
+		</data>
+		<key>MaterialIcons.ttf</key>
+		<data>
+		/AXeMSNOAJD33cKM4bI69AJssdo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -83,7 +87,7 @@
 		</data>
 		<key>PlugIns/appappTests.xctest/appappTests</key>
 		<data>
-		7Vt8pDTrmDyZ0OAg7n8R1VTAz3U=
+		YFJ2zz3XvnHa1k/BrbSrG8TkgBE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -222,6 +226,17 @@
 			u0dnmwuuuEgbf1HGitM65aUmc2y1CxcXzGD/a2X5CKM=
 			</data>
 		</dict>
+		<key>MaterialIcons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/AXeMSNOAJD33cKM4bI69AJssdo=
+			</data>
+			<key>hash2</key>
+			<data>
+			t/Sjq1YgSPKN0fppFgG8QzY6YdD4dtFtgxbFLk8y1pY=
+			</data>
+		</dict>
 		<key>PlugIns/appappTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -270,11 +285,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7Vt8pDTrmDyZ0OAg7n8R1VTAz3U=
+			YFJ2zz3XvnHa1k/BrbSrG8TkgBE=
 			</data>
 			<key>hash2</key>
 			<data>
-			P1WX09IpyjVitpiPk4ko7SJf9Y9dYsG4e+3TkWPBc58=
+			3m+EcOJjI96eIdigOP5hP+50xPw+tCH06+m7cOtPlz8=
 			</data>
 		</dict>
 	</dict>

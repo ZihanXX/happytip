@@ -20,6 +20,9 @@ Navigation.startSingleScreenApp({
     title: 'Happy Tip',
     navigatorStyle: {
       navBarHidden: true
+    },
+    appStyle: {
+      keepStyleAcrossPush: false
     }
   }
 });

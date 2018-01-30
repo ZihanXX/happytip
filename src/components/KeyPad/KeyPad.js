@@ -2,6 +2,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import Button from '../../components/UI/Button/Button';
 import Icon from 'react-native-vector-icons/Ionicons';
+import ThemeColors from '../../components/UI/Theme/ThemeColors';
 
 
 const keyPad = props => {
@@ -34,7 +35,7 @@ const keyPad = props => {
       </View>
 
       <Button
-        color='#e45c69'
+        color={ThemeColors.keyRed}
         onPress={() => props.doTheCalculate(props.splitBy)}
       >DONE</Button>
 
@@ -47,6 +48,7 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     alignItems: 'flex-start',
     flexDirection:'row',
+    paddingTop: 1
   }
 });
 

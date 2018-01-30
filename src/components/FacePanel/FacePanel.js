@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableHighlight, TouchableOpacity, Image, Button } from 'react-native';
+import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableHighlight, TouchableOpacity, Image, Button, Dimensions } from 'react-native';
 import Face1 from '../../assets/imgs/face1.png';
 import Face2 from '../../assets/imgs/face2.png';
 import Face3 from '../../assets/imgs/face3.png';
@@ -7,6 +7,7 @@ import Face4 from '../../assets/imgs/face4.png';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
 import Icon from 'react-native-vector-icons/Ionicons';
+import ThemeColors from '../../components/UI/Theme/ThemeColors';
 
 
 const facePanel = (props) => {
@@ -36,8 +37,8 @@ const facePanel = (props) => {
               <View>
                 <TouchableHighlight onPress={props.goToTipMe}>
                   <View>
-                    <HeadingText>Dude, You are rich!</HeadingText>
-                    <MainText>Consider tipping this app?</MainText>
+                    <HeadingText style={{color: ThemeColors.keyRed}}>Dude, You are rich!</HeadingText>
+                    <MainText style={{color: ThemeColors.textLight}}>Consider tipping this app?</MainText>
                   </View>
                 </TouchableHighlight>
               </View>
@@ -51,24 +52,24 @@ const facePanel = (props) => {
 
         <View style={styles.container}>
           <TouchableHighlight onPress={props.minusPercentage}>
-            <View><Icon size={25} name='md-remove' color='white' /></View>
+            <View style={styles.icon}><Icon size={25} name='md-remove' color={ThemeColors.textLightTheme} /></View>
           </TouchableHighlight>
 
           <TouchableHighlight onPress={() => props.setPercentageTo(15)}>
-            <View><MainText> 15% </MainText></View>
+            <View><MainText style={{color: ThemeColors.textLightTheme}}> 15% </MainText></View>
           </TouchableHighlight>
           <TouchableHighlight onPress={() => props.setPercentageTo(18)}>
-            <View><MainText> 18% </MainText></View>
+            <View><MainText style={{color: ThemeColors.textLightTheme}}> 18% </MainText></View>
           </TouchableHighlight>
           <TouchableHighlight onPress={() => props.setPercentageTo(20)}>
-            <View><MainText> 20% </MainText></View>
+            <View><MainText style={{color: ThemeColors.textLightTheme}}> 20% </MainText></View>
           </TouchableHighlight>
           <TouchableHighlight onPress={() => props.setPercentageTo(25)}>
-            <View><MainText> 25% </MainText></View>
+            <View><MainText style={{color: ThemeColors.textLightTheme}}> 25% </MainText></View>
           </TouchableHighlight>
 
           <TouchableHighlight onPress={props.addPercentage}>
-            <View><Icon size={25} name='md-add' color='white' /></View>
+            <View style={styles.icon}><Icon size={25} name='md-add' color={ThemeColors.textLightTheme} /></View>
           </TouchableHighlight>
         </View>
       </View>
@@ -85,10 +86,15 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     justifyContent: 'center',
     flexDirection:'row',
+    paddingTop: 10
   },
   imgStyle: {
-    height: 170,
-    width: 170
+    height: (Dimensions.get('window').height * 0.5 - 65) * 0.65,
+    width: (Dimensions.get('window').height * 0.5 - 65) * 0.65
+  },
+  icon: {
+    paddingLeft: 10,
+    paddingRight: 10
   }
 });
 

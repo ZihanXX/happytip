@@ -39,6 +39,7 @@
 		FA934983201FA34300F3F227 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA934982201FA31E00F3F227 /* libRNVectorIcons.a */; };
 		FA934985201FA3B700F3F227 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA934984201FA3B600F3F227 /* Ionicons.ttf */; };
 		FA97F88C201FAC82004F790F /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA97F88B201FAC82004F790F /* FontAwesome.ttf */; };
+		FA97F8B3201FE0F8004F790F /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA97F8B2201FE0F8004F790F /* MaterialIcons.ttf */; };
 		FAAF36C0201A890B00CA8312 /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA587184201A75EC0004BCD7 /* libReactNativeNavigation.a */; };
 		FAB3EDDB2007631E000DF805 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 /* End PBXBuildFile section */
@@ -349,6 +350,7 @@
 		FA934959201FA31E00F3F227 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		FA934984201FA3B600F3F227 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		FA97F88B201FAC82004F790F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		FA97F8B2201FE0F8004F790F /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -571,6 +573,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FA97F8B2201FE0F8004F790F /* MaterialIcons.ttf */,
 				FA97F88B201FAC82004F790F /* FontAwesome.ttf */,
 				FA934984201FA3B600F3F227 /* Ionicons.ttf */,
 				13B07FAE1A68108700A75B9A /* appapp */,
@@ -1079,6 +1082,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				FA97F8B3201FE0F8004F790F /* MaterialIcons.ttf in Resources */,
 				FA934985201FA3B700F3F227 /* Ionicons.ttf in Resources */,
 				FA97F88C201FAC82004F790F /* FontAwesome.ttf in Resources */,
 			);

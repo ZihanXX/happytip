@@ -1,25 +1,35 @@
 import React from 'react';
-import { TouchableHighlight, Text, View, StyleSheet } from 'react-native';
+import { TouchableHighlight, Text, View, StyleSheet, Dimensions, Platform } from 'react-native';
 
 
 const button = props => (
   <TouchableHighlight onPress={props.onPress}>
-    <View style={[styles.button, {backgroundColor: props.color}]}>
+    <View style={Platform.OS == 'ios' ?
+      [styles.buttonIOS, {backgroundColor: props.color}] :
+      [styles.buttonAndroid, {backgroundColor: props.color}]
+    }>
       <Text style={styles.contents}>{props.children}</Text>
     </View>
   </TouchableHighlight>
 );
 
 const styles = StyleSheet.create({
-  button: {
+  buttonIOS: {
     borderColor: '#bbb',
     borderWidth: 1,
-    padding: 10,
-    margin: 5,
-    borderRadius: 2
+    margin: 1,
+    borderRadius: 2,
+    height: Dimensions.get('window').height * 0.07
+  },
+  buttonAndroid: {
+    borderColor: '#bbb',
+    borderWidth: 1,
+    margin: 1,
+    borderRadius: 2,
+    height: Dimensions.get('window').height * 0.06
   },
   contents: {
-    width: 50
+    width: Dimensions.get('window').width * 0.32
   }
 });
 

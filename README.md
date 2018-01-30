@@ -15,13 +15,20 @@
 * save user data
 * clean up the src files
 * tap/swipe to change tip rate
+* set up react-native-vector-icons
 
 
 ## DID:
-* set up react-native-vector-icons
+* toggle button
+* disable rotation
+* status bar color
+* responsive (ios & android)
+* format theme colors
+* default bill price
 
 
 ## TODO:
 * improvise UI
+* custom fonts
 * share with friend
 * clean up unused vars and files

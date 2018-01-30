@@ -1,13 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableHighlight, TouchableOpacity, Image, Button } from 'react-native';
+import { StyleSheet, Text, View, TouchableWithoutFeedback, TouchableHighlight, TouchableOpacity, Image, Button, StatusBar } from 'react-native';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
 import Icon from 'react-native-vector-icons/Ionicons';
+import ThemeColors from '../../components/UI/Theme/ThemeColors';
 
 
 const headingPanel = (props) => {
 
   return (
+
+
     <View style={styles.container}>
 
       <View style={styles.percentage}>
@@ -17,12 +20,13 @@ const headingPanel = (props) => {
       <View style={styles.menu}>
         <TouchableHighlight onPress={props.goToSettings}>
           <View>
-            <Icon size={30} name='md-menu' color='white' />
+            <Icon size={30} name='md-menu' color={ThemeColors.textLight} />
           </View>
         </TouchableHighlight>
       </View>
 
     </View>
+
   );
 }
 
@@ -32,13 +36,14 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection:'row',
     justifyContent: 'space-between',
-    paddingTop: 10
+    paddingTop: 5
   },
   text: {
-    color: 'white'
+    color: ThemeColors.textLight
   },
   menu: {
-    paddingRight: 8
+    paddingRight: 10,
+    paddingTop: 3
   },
   percentage: {
     paddingLeft: 8

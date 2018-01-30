@@ -2,42 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fad57a7d-6122-47e0-8ff2-c23913e3355d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/UI/Theme/ThemeColors.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/android/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/modules.xml" afterPath="$PROJECT_DIR$/android/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" afterPath="$PROJECT_DIR$/android/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/debug.json" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/appapp/MainActivity.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/appapp/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/appapp/MainApplication.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/appapp/MainApplication.class" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/android/app/app.iml" afterPath="$PROJECT_DIR$/android/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/single/debug.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/androidTest/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/153/com/appapp/MainActivity.dex" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/153/com/appapp/MainActivity.dex" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/153/com/appapp/MainApplication.dex" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/153/com/appapp/MainApplication.dex" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/zip-cache/Hx4I8DDyWWc0UCuJVbF8KvltT+s=" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/debug/zip-cache/Hx4I8DDyWWc0UCuJVbF8KvltT+s=" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/debug/resources-debug.ap_" />
       <change beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/debug/app-debug.apk" />
       <change beforePath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainActivity.java" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainApplication.java" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainApplication.java" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" afterPath="$PROJECT_DIR$/android/settings.gradle" />
-      <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app.dSYM/Contents/Resources/DWARF/appapp" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app.dSYM/Contents/Resources/DWARF/appapp" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/Info.plist" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/Info.plist" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/PlugIns/appappTests.xctest/appappTests" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/PlugIns/appappTests.xctest/appappTests" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/ios/Build/Build/Products/Debug-iphonesimulator/appapp.app/_CodeSignature/CodeResources" />
@@ -58,6 +51,7 @@
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/fishhook.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/fishhook.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/RNVectorIcons.build/Debug-iphonesimulator/RNVectorIcons.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/RNVectorIcons.build/Debug-iphonesimulator/RNVectorIcons.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/cxxreact.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/cxxreact.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/double-conversion.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/double-conversion.build/dgph" />
@@ -67,11 +61,10 @@
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/yoga.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/React.build/Debug-iphonesimulator/yoga.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/ReactNativeNavigation.build/Debug-iphonesimulator/ReactNativeNavigation.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/ReactNativeNavigation.build/Debug-iphonesimulator/ReactNativeNavigation.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphoneos/appapp.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphoneos/appapp.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appapp.build/Objects-normal/x86_64/appapp_dependency_info.dat" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appapp.build/Objects-normal/x86_64/appapp_dependency_info.dat" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appapp.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appapp.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appappTests.build/dgph" afterPath="$PROJECT_DIR$/ios/Build/Intermediates/appapp.build/Debug-iphonesimulator/appappTests.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/Build/Logs/Build/1562E66A-301D-455A-89CA-C5B8F6E12577.xcactivitylog" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ios/Build/Logs/Build/6E8AE2AF-8EAB-4437-992B-96B4CDC7556D.xcactivitylog" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Logs/Build/8D704B52-E339-42D8-ABFC-70E854C022A5.xcactivitylog" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/Build/Logs/Build/B8DDC8F1-7265-4348-B87E-7FCE4D8D7596.xcactivitylog" afterPath="" />
       <change beforePath="$PROJECT_DIR$/ios/Build/Logs/Build/Cache.db" afterPath="$PROJECT_DIR$/ios/Build/Logs/Build/Cache.db" />
       <change beforePath="$PROJECT_DIR$/ios/Build/info.plist" afterPath="$PROJECT_DIR$/ios/Build/info.plist" />
       <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Conv.o-2LWF8W98B061N" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/Conv.o-2LWF8W98B061N" />
@@ -115,15 +108,25 @@
       <change beforePath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/vlog_is_on.o-2Y63FWVNJZ5X3" afterPath="$PROJECT_DIR$/ios/Index/DataStore/v5/units/vlog_is_on.o-2Y63FWVNJZ5X3" />
       <change beforePath="$PROJECT_DIR$/ios/appapp.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/appapp.xcodeproj/project.pbxproj" />
       <change beforePath="$PROJECT_DIR$/ios/appapp.xcodeproj/project.xcworkspace/xcuserdata/ZihanX.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/ios/appapp.xcodeproj/project.xcworkspace/xcuserdata/ZihanX.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change beforePath="$PROJECT_DIR$/ios/appapp/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/ios/appapp/Images.xcassets/AppIcon.appiconset/Contents.json" />
       <change beforePath="$PROJECT_DIR$/ios/appapp/Info.plist" afterPath="$PROJECT_DIR$/ios/appapp/Info.plist" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/src/components/ControlPanel/ControlPanel.js" afterPath="$PROJECT_DIR$/src/components/ControlPanel/ControlPanel.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/BillPrice.js" afterPath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/BillPrice.js" />
       <change beforePath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/FriendsSplit.js" afterPath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/FriendsSplit.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/SplitPrice.js" afterPath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/SplitPrice.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/YouPay.js" afterPath="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/YouPay.js" />
       <change beforePath="$PROJECT_DIR$/src/components/FacePanel/FacePanel.js" afterPath="$PROJECT_DIR$/src/components/FacePanel/FacePanel.js" />
       <change beforePath="$PROJECT_DIR$/src/components/HeaderPanel/HeaderPanel.js" afterPath="$PROJECT_DIR$/src/components/HeaderPanel/HeaderPanel.js" />
       <change beforePath="$PROJECT_DIR$/src/components/KeyPad/KeyPad.js" afterPath="$PROJECT_DIR$/src/components/KeyPad/KeyPad.js" />
       <change beforePath="$PROJECT_DIR$/src/components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad.js" afterPath="$PROJECT_DIR$/src/components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad.js" />
       <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.js" afterPath="$PROJECT_DIR$/src/components/Settings/Settings.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/HeadingText/HeadingText.js" afterPath="$PROJECT_DIR$/src/components/UI/HeadingText/HeadingText.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/MainText/MainText.js" afterPath="$PROJECT_DIR$/src/components/UI/MainText/MainText.js" />
+      <change beforePath="$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js" afterPath="$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingTaxRateScreen.js" afterPath="$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingTaxRateScreen.js" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Settings/SettingsScreen.js" afterPath="$PROJECT_DIR$/src/screens/Settings/SettingsScreen.js" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -141,18 +144,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeaderPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/HeaderPanel/HeaderPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="54" />
+            <state relative-caret-position="390">
+              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -161,8 +154,44 @@
       <file leaf-file-name="MainScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="29" />
+            <state relative-caret-position="4035">
+              <caret line="269" column="43" lean-forward="false" selection-start-line="269" selection-start-column="43" selection-end-line="269" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Settings/Settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="90" column="4" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/Settings/SettingsScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeaderPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/HeaderPanel/HeaderPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -171,19 +200,11 @@
       <file leaf-file-name="FacePanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/FacePanel/FacePanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControlPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/ControlPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="435">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,18 +212,8 @@
       <file leaf-file-name="FriendsSplit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/FriendsSplit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeyPad.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/KeyPad/KeyPad.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="104">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -210,23 +221,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Settings.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Settings/Settings.js">
+      <file leaf-file-name="BillPrice.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/BillPrice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaxRateKeyPad.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="32" column="104" lean-forward="false" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
+            <state relative-caret-position="165">
+              <caret line="11" column="68" lean-forward="false" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -259,8 +258,6 @@
         <option value="$PROJECT_DIR$/src/components/ControlPanel/ToggleTaxIncl.js" />
         <option value="$PROJECT_DIR$/src/components/ControlPanel/ToggleTaxIncl/ToggleTaxIncl.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/places.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/HeadingText/HeadingText.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/MainText/MainText.js" />
         <option value="$PROJECT_DIR$/src/components/HeadingPanel/HeadingPanel.js" />
         <option value="$PROJECT_DIR$/src/components/KeyBoard/KeyBoard.js" />
         <option value="$PROJECT_DIR$/src/components/KeyBoard/Button/Button.js" />
@@ -271,34 +268,40 @@
         <option value="$PROJECT_DIR$/src/screens/index.js" />
         <option value="$PROJECT_DIR$/src/screens/Settings/SettingScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingLocationScreen.js" />
-        <option value="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/BillPrice.js" />
-        <option value="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/SplitPrice.js" />
         <option value="$PROJECT_DIR$/src/containers/HappyTip/HappyTip.js" />
-        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingConcurrencyScreen.js" />
         <option value="$PROJECT_DIR$/src/components/UI/KeyPad/KeyPad.js" />
-        <option value="$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingTaxRateScreen.js" />
-        <option value="$PROJECT_DIR$/src/screens/Settings/SettingsScreen.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
         <option value="$PROJECT_DIR$/src/components/KeyBoard/KeyPad.js" />
         <option value="$PROJECT_DIR$/src/components/Settings/SettingItems/SettingTaxRate/KeyPad/KeyPad.js" />
-        <option value="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/YouPay.js" />
         <option value="$PROJECT_DIR$/src/screens/Settings/SettingItems/TipMeScreen.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/../HappyTip/package.json" />
-        <option value="$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/android/settings.gradle" />
         <option value="$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainActivity.java" />
         <option value="$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainApplication.java" />
-        <option value="$PROJECT_DIR$/src/components/HeaderPanel/HeaderPanel.js" />
-        <option value="$PROJECT_DIR$/src/components/FacePanel/FacePanel.js" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/src/components/ControlPanel/ControlPanel.js" />
-        <option value="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/FriendsSplit.js" />
-        <option value="$PROJECT_DIR$/src/components/KeyPad/KeyPad.js" />
+        <option value="$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingTaxRateScreen.js" />
+        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/Theme/ThemeColor.js" />
+        <option value="$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js" />
         <option value="$PROJECT_DIR$/src/components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad.js" />
+        <option value="$PROJECT_DIR$/src/components/KeyPad/KeyPad.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/HeadingText/HeadingText.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
         <option value="$PROJECT_DIR$/src/components/Settings/Settings.js" />
+        <option value="$PROJECT_DIR$/src/components/HeaderPanel/HeaderPanel.js" />
+        <option value="$PROJECT_DIR$/src/screens/Settings/SettingsScreen.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/MainText/MainText.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/Theme/ThemeColors.js" />
+        <option value="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/FriendsSplit.js" />
+        <option value="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/SplitPrice.js" />
+        <option value="$PROJECT_DIR$/src/components/FacePanel/FacePanel.js" />
+        <option value="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/YouPay.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/BillPrice.js" />
       </list>
     </option>
   </component>
@@ -341,6 +344,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -452,6 +456,30 @@
               <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
               <item name="appapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="HeadingText" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="MainText" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -468,11 +496,18 @@
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="Settings" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HappyTip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Settings" type="462c0819:PsiDirectoryNode" />
+              <item name="SettingItems" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -531,25 +566,27 @@
       <workItem from="1516915798885" duration="20638000" />
       <workItem from="1516992965770" duration="9592000" />
       <workItem from="1517008149278" duration="9683000" />
-      <workItem from="1517249764815" duration="5409000" />
+      <workItem from="1517249764815" duration="8122000" />
+      <workItem from="1517260309357" duration="10854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107797000" />
+    <option name="totallyTimeSpent" value="121364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23960535" sideWeight="0.49417636" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21282594" sideWeight="0.5058236" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21282594" sideWeight="0.5058236" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2314578" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2314578" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -573,43 +610,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/FacePanel/FacePanel.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/KeyBoard/KeyBoard.css" />
     <entry file="file://$PROJECT_DIR$/src/components/KeyBoard/Key/Key.js" />
     <entry file="file://$PROJECT_DIR$/src/containers/Tiptip/Tiptip.css" />
     <entry file="file://$PROJECT_DIR$/src/components/FacePanel/TipPercentage/TipPercentage.js" />
     <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/IncludeTax.js" />
     <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/ToggleTaxIncl/ToggleTaxIncl.js" />
     <entry file="file://$PROJECT_DIR$/src/store/reducers/places.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/UI/MainText/MainText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/Price/Price.js" />
     <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/LittleFaces/LittleFaces.js" />
     <entry file="file://$PROJECT_DIR$/src/assets/imgs/faceface.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/components/UI/HeadingText/HeadingText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -632,63 +646,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/SplitPrice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingLocationScreen.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Settings/SettingItems/SettingItems.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Settings/SettingItems/SettingItem/SettingItem.js" />
-    <entry file="file://$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingTaxRateScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/BillPrice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FacePanel/Face/Face.js" />
     <entry file="file://$PROJECT_DIR$/src/components/KeyBoard/Button/Button.js" />
     <entry file="file://$PROJECT_DIR$/src/screens/index.js" />
     <entry file="file://$PROJECT_DIR$/src/store/actions/actionTypes.js" />
     <entry file="file://$PROJECT_DIR$/src/containers/HappyTip/HappyTip.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/YouPay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/KeyBoard/KeyPad.js" />
-    <entry file="file://$PROJECT_DIR$/src/screens/Settings/SettingsScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Settings/SettingItems/TipMeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -703,6 +670,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="155" column="53" lean-forward="false" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -711,100 +706,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
+    <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Settings/SettingItems/SettingTaxRateScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeaderPanel/HeaderPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FacePanel/FacePanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/appapp/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="155" column="53" lean-forward="false" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/ControlPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/FriendsSplit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="555">
+          <caret line="103" column="50" lean-forward="false" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/KeyPad/KeyPad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="630">
+          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -813,18 +754,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Settings/SettingItems/SettingTaxRate/TaxRateKeyPad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="32" column="104" lean-forward="false" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
+        <state relative-caret-position="-301">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Settings/Settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="224">
+          <caret line="90" column="4" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Settings/SettingsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeaderPanel/HeaderPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/MainText/MainText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/HeadingText/HeadingText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/FriendsSplit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FacePanel/FacePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/YouPay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Theme/ThemeColors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/SplitPrice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/MainScreen/MainScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4035">
+          <caret line="269" column="43" lean-forward="false" selection-start-line="269" selection-start-column="43" selection-end-line="269" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ControlPanel/PriceLabels/BillPrice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="68" lean-forward="false" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
