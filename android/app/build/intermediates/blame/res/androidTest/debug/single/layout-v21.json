@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/bottom_navigation_small_item.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/f5ed86b7aeed5956107f403804bccee6/res/layout-v21/bottom_navigation_small_item.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/bottom_navigation_item.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/f5ed86b7aeed5956107f403804bccee6/res/layout-v21/bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/da08d44ca735b4fa9be9e203b9066f39/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/da08d44ca735b4fa9be9e203b9066f39/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/da08d44ca735b4fa9be9e203b9066f39/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/da08d44ca735b4fa9be9e203b9066f39/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

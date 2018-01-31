@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/debug/menu/stub.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/menu/stub.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/debug/menu/search_item.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/menu/search_item.xml"
+    }
+]

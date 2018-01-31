@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/lightbox_enter.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/anim/lightbox_enter.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/slide_in_right.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/catalyst_fade_in.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/e410789afee7e0727432ab993ef91888/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/design_fab_out.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0db043c9379cab2e02b273d4472f4f78/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/catalyst_slide_up.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/e410789afee7e0727432ab993ef91888/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/no_animation.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/anim/no_animation.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0db043c9379cab2e02b273d4472f4f78/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/catalyst_push_up_out.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/e410789afee7e0727432ab993ef91888/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0db043c9379cab2e02b273d4472f4f78/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/slide_up.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/anim/slide_up.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/pop.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/anim/pop.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/slide_down.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/anim/slide_down.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_out.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/catalyst_push_up_in.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/e410789afee7e0727432ab993ef91888/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/catalyst_slide_down.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/e410789afee7e0727432ab993ef91888/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0db043c9379cab2e02b273d4472f4f78/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/slide_out_right.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0db043c9379cab2e02b273d4472f4f78/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_in.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/tooltip_enter.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/catalyst_fade_out.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/e410789afee7e0727432ab993ef91888/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/tooltip_exit.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/364bc8f7800fa28c12157d678c147976/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/androidTest/debug/anim/design_fab_in.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0db043c9379cab2e02b273d4472f4f78/res/anim/design_fab_in.xml"
+    }
+]

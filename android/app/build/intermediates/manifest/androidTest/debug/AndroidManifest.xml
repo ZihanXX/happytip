@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appapp.test">
+    package="com.happytip.test">
 
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.appapp"
+                     android:targetPackage="com.happytip"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.appapp"/>
+                     android:label="Tests for com.happytip"/>
 </manifest>

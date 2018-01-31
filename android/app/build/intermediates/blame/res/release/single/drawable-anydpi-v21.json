@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/release/drawable-anydpi-v21/ic_launcher_background.xml",
+        "source": "/Users/ZihanX/Developer/React/appapp/android/app/build/generated/res/pngs/release/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/083594db12d89bbba785da2d8a05183e/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/ZihanX/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/083594db12d89bbba785da2d8a05183e/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    }
+]

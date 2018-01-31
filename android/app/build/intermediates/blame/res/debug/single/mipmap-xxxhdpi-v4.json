@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/ZihanX/Developer/React/appapp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher_round.png",
+        "source": "/Users/ZihanX/Developer/React/appapp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/ZihanX/Developer/React/appapp/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher_foreground.png",
+        "source": "/Users/ZihanX/Developer/React/appapp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    }
+]
